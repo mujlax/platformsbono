@@ -1,5 +1,5 @@
 {
-  "id": "tessss",
+  "id": "test",
   "name": "tessss",
   "icon": "🟡",
   "color": "#FFCC00",
@@ -22,7 +22,7 @@
             "id": "adobe-meta",
             "name": "Мета-тег Adobe Animate",
             "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
-            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "scriptToInsert": "<meta name=\"ad.size\" PIZDAAAAAAAAA SISAAAAAATcontent=\"width={{WIDTH}},height={{HEIGHT}}\">",
             "deleteMarker": false,
             "enabled": false,
             "insertPosition": "after"
@@ -127,15 +127,15 @@
     }
   ],
   "metadata": {
-    "version": "4.20250627.1209",
-    "updated": "2025-06-27T09:09:53.924Z",
-    "savedAt": "2025-06-27T08:51:39.817Z",
+    "version": "4.20250627.1740",
+    "updated": "2025-06-27T14:40:18.103Z",
+    "savedAt": "2025-06-27T14:40:07.706Z",
     "description": "asdasd22112asd",
     "author": "asda121212sd",
     "tags": [
       "asdadsdas"
     ],
-    "lastModified": "2025-06-27T09:09:53.922Z"
+    "lastModified": "2025-06-27T14:40:18.103Z"
   },
   "isCustom": true,
   "source": {
