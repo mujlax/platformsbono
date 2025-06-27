@@ -127,18 +127,18 @@
     }
   ],
   "metadata": {
-    "updated": "2025-06-27T08:25:11.036Z",
-    "savedAt": "2025-06-27T08:13:03.227Z",
+    "updated": "2025-06-27T08:36:36.484Z",
+    "savedAt": "2025-06-27T08:25:05.687Z",
     "description": "asdasdasd",
     "author": "asdasd",
     "tags": [
       "asdadsdas"
     ],
-    "version": "2.0.1"
+    "version": "1.0.1"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "2.0.0"
+    "version": "1.0.0"
   }
 }
