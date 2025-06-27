@@ -1,0 +1,76 @@
+{
+  "id": "sostav",
+  "name": "sostav",
+  "icon": "🎯",
+  "color": "#ff0088",
+  "sizeGroups": [
+    {
+      "id": "group_1750944010659",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1750944059265",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 500,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1750944066113",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 50,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "banner-container",
+          "wrapperDiv": "<a href=\"{{CLICK_URL}}\" target=\"_blank\" style=\"display:block;text-decoration:none;\"></a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1750944071465",
+            "name": "Новый скрипт",
+            "marker": "</head>",
+            "scriptToInsert": "<script>console.log(\"loaded\");</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250627.1709",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-06-26T13:19:52.069Z",
+    "updated": "2025-06-27T14:09:24.558Z",
+    "license": "MIT",
+    "savedAt": "2025-06-27T14:09:18.860Z",
+    "lastModified": "2025-06-27T14:09:24.558Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
