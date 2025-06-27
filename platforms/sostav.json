@@ -15,7 +15,7 @@
           "id": "rule_1750944059265",
           "name": "Проверка ZIP архив",
           "pattern": "*.zip",
-          "maxSizeKB": 500,
+          "maxSizeKB": 5000,
           "enabled": true,
           "type": "archive"
         },
@@ -26,23 +26,40 @@
           "maxSizeKB": 50,
           "enabled": true,
           "type": "file"
+        },
+        {
+          "id": "rule_1751033870305",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 100,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1751033871610",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 100,
+          "enabled": true,
+          "type": "file"
         }
       ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "banner-container",
-          "wrapperDiv": "<a href=\"{{CLICK_URL}}\" target=\"_blank\" style=\"display:block;text-decoration:none;\"></a>",
+          "wrapperDiv": "<a href=\"{{CLICK_URL}}\" target=\"_blank\" style=\"display:block;text-decoration:none;\">\nEBLAAAAAN</a>",
           "enabled": true
         },
         "scriptInjections": [
           {
             "id": "script_1750944071465",
-            "name": "Новый скрипт",
-            "marker": "</head>",
+            "name": "Саси",
+            "marker": "</body>",
             "scriptToInsert": "<script>console.log(\"loaded\");</script>",
             "deleteMarker": false,
             "enabled": true,
-            "insertPosition": "before"
+            "insertPosition": "after",
+            "markerId": "html_body_end"
           }
         ],
         "standardTests": {
@@ -53,20 +70,23 @@
         },
         "cleanupSettings": {
           "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
         }
       }
     }
   ],
   "metadata": {
-    "version": "1.20250627.1709",
+    "version": "1.20250627.1718",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-06-26T13:19:52.069Z",
-    "updated": "2025-06-27T14:09:24.558Z",
+    "updated": "2025-06-27T14:18:31.770Z",
     "license": "MIT",
-    "savedAt": "2025-06-27T14:09:18.860Z",
-    "lastModified": "2025-06-27T14:09:24.558Z"
+    "savedAt": "2025-06-27T14:18:23.405Z",
+    "lastModified": "2025-06-27T14:18:31.770Z"
   },
   "isCustom": true,
   "source": {
