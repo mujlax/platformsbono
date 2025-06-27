@@ -1,0 +1,81 @@
+{
+  "id": "test-edit-platform",
+  "name": "Тестовая платформа для редактирования",
+  "icon": "✏️",
+  "color": "#28a745",
+  "sizeGroups": [
+    {
+      "id": "test-group-1",
+      "name": "Основные размеры",
+      "sizes": [
+        {
+          "width": 728,
+          "height": 90,
+          "name": "Leaderboard"
+        },
+        {
+          "width": 300,
+          "height": 250,
+          "name": "Medium Rectangle"
+        }
+      ],
+      "validationRules": [
+        {
+          "id": "rule-1",
+          "name": "Проверка HTML",
+          "pattern": "index.html",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "banner-container",
+          "wrapperDiv": "<div class='banner-wrapper'>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script-1",
+            "name": "Аналитика",
+            "marker": "</head>",
+            "scriptToInsert": "<script>console.log('Test banner loaded');</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": false
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250627.1709",
+    "author": "Тестовый автор",
+    "description": "Платформа с множеством настроек для тестирования редактирования",
+    "tags": [
+      "тест",
+      "редактирование",
+      "demo"
+    ],
+    "created": "2024-06-26T10:00:00.000Z",
+    "updated": "2025-06-27T14:09:36.954Z",
+    "license": "MIT",
+    "savedAt": "2025-06-27T14:09:33.276Z",
+    "lastModified": "2025-06-27T14:09:36.954Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
