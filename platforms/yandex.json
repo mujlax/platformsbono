@@ -113,14 +113,14 @@
           "id": "1",
           "name": "index.js",
           "pattern": "index.js",
-          "maxSizeKB": 1250,
+          "maxSizeKB": 2250,
           "enabled": true
         },
         {
           "id": "2",
           "name": "index.html",
           "pattern": "index.html",
-          "maxSizeKB": 180,
+          "maxSizeKB": 280,
           "enabled": true
         }
       ]
@@ -134,7 +134,7 @@
     "tags": [
       "asdadsdas"
     ],
-    "version": "3.0.1"
+    "version": "3.0.2"
   },
   "isCustom": true,
   "source": {
