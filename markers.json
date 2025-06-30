@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -27,13 +27,13 @@
     {
       "id": "custom_code",
       "name": "Пользовательский код",
-      "value": "<!-- CUSTOM_CODE -->",
+      "value": "<!-- CUSTOM_HUITA -->",
       "description": "Маркер для пользовательского кода"
     },
     {
       "id": "adobe_animate_meta",
       "name": "Adobe Animate мета-тег",
-      "value": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+      "value": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC9\">",
       "description": "Маркер для мета-тега Adobe Animate"
     },
     {
