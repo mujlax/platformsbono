@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -33,7 +33,7 @@
     {
       "id": "adobe_animate_meta",
       "name": "Adobe Animate мета-тег",
-      "value": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC9\">",
+      "value": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
       "description": "Маркер для мета-тега Adobe Animate"
     },
     {
@@ -49,5 +49,5 @@
       "description": "Список изображений для замены на Base64"
     }
   ],
-  "lastUpdated": "2025-06-30T15:00:02.635Z"
+  "lastUpdated": "2025-06-30T15:10:30.408Z"
 }
