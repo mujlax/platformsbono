@@ -1,0 +1,53 @@
+{
+  "version": "1.0.1",
+  "name": "Базовые маркеры",
+  "description": "Стандартный набор маркеров для прошивки баннеров",
+  "author": "System",
+  "created": "2024-01-01T00:00:00.000Z",
+  "updated": "2024-12-30T16:25:00.000Z",
+  "markers": [
+    {
+      "id": "html_head_end",
+      "name": "Конец секции <head>",
+      "value": "</head>",
+      "description": "Вставка перед закрывающим тегом </head>"
+    },
+    {
+      "id": "html_body_end",
+      "name": "Конец секции <body>",
+      "value": "</body>",
+      "description": "Вставка перед закрывающим тегом </body>"
+    },
+    {
+      "id": "createjs_script",
+      "name": "CreateJS скрипт",
+      "value": "<!-- CREATEJS_SCRIPT -->",
+      "description": "Маркер для вставки CreateJS библиотеки"
+    },
+    {
+      "id": "custom_code",
+      "name": "Пользовательский код",
+      "value": "<!-- CUSTOM_CODE -->",
+      "description": "Маркер для пользовательского кода"
+    },
+    {
+      "id": "adobe_animate_meta",
+      "name": "Adobe Animate мета-тег",
+      "value": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+      "description": "Маркер для мета-тега Adobe Animate"
+    },
+    {
+      "id": "createjs_url",
+      "name": "CreateJS CDN URL",
+      "value": "https://code.createjs.com/1.0.0/createjs.min.js",
+      "description": "URL для загрузки CreateJS библиотеки"
+    },
+    {
+      "id": "base64_images",
+      "name": "Изображения для Base64",
+      "value": "[{\"fileName\":\"index_atlas_NP_1.jpg\",\"id\":\"index_atlas_NP_1\"},{\"fileName\":\"index_atlas_P_1.png\",\"id\":\"index_atlas_P_1\"}]",
+      "description": "Список изображений для замены на Base64"
+    }
+  ],
+  "lastUpdated": "2025-06-30T15:00:02.635Z"
+}
