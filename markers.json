@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -17,18 +17,6 @@
       "name": "Конец секции <body>",
       "value": "</body>",
       "description": "Вставка перед закрывающим тегом </body>"
-    },
-    {
-      "id": "createjs_script",
-      "name": "CreateJS скрипт",
-      "value": "<!-- CREATEJS_SCRIPT -->",
-      "description": "Маркер для вставки CreateJS библиотеки"
-    },
-    {
-      "id": "custom_code",
-      "name": "Пользовательский код",
-      "value": "<!-- CUSTOM_HUITA -->",
-      "description": "Маркер для пользовательского кода"
     },
     {
       "id": "adobe_animate_meta",
@@ -49,5 +37,5 @@
       "description": "Список изображений для замены на Base64"
     }
   ],
-  "lastUpdated": "2025-06-30T15:10:30.408Z"
+  "lastUpdated": "2025-07-09T14:09:31.371Z"
 }
