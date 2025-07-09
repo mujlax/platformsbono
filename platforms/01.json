@@ -1,0 +1,93 @@
+{
+  "id": "01",
+  "name": "Yandex Direct",
+  "icon": "⛄",
+  "color": "#0033ff",
+  "sizeGroups": [
+    {
+      "id": "group_1752047181495",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "240x400",
+        "240x600",
+        "300x250",
+        "300x300",
+        "300x500",
+        "300x600",
+        "320x480"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a id=\"click_area\" href=\"#\" target=\"_blank\"></a>\n",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1752047292470",
+            "name": "GetUrl",
+            "marker": "</body>",
+            "scriptToInsert": "<script>document.getElementById(\"click_area\").href = yandexHTML5BannerApi.getClickURLNum(1);</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before",
+            "markerId": "04"
+          },
+          {
+            "id": "script_1752047487421",
+            "name": "Новый скрипт",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before",
+            "markerId": "adobe_animate_meta"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250709.1730",
+    "author": "Морж-скебоб",
+    "description": "ЯНдекс",
+    "tags": [],
+    "created": "2025-07-09T07:44:59.382Z",
+    "updated": "2025-07-09T14:30:53.356Z",
+    "license": "Я придумал",
+    "savedAt": "2025-07-09T14:30:07.250Z",
+    "lastModified": "2025-07-09T14:30:53.356Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
