@@ -1,0 +1,78 @@
+{
+  "id": "test",
+  "name": "test",
+  "icon": "🎯",
+  "color": "#007bff",
+  "sizeGroups": [
+    {
+      "id": "group_1751974150173",
+      "name": "240x400",
+      "sizes": [
+        "240x400",
+        "600x250"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1752068052511",
+            "name": "Новый скрипт",
+            "marker": "</body>",
+            "scriptToInsert": "TEST {{HHA}}",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before",
+            "markerId": "html_body_end"
+          }
+        ],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": false
+        },
+        "cleanupSettings": {
+          "enabled": false
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": false
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250709.1709",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-08T11:27:47.348Z",
+    "updated": "2025-07-09T14:09:48.739Z",
+    "license": "MIT",
+    "savedAt": "2025-07-09T14:09:46.497Z",
+    "lastModified": "2025-07-09T14:09:48.739Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
