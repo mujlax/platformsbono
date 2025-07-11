@@ -1,0 +1,103 @@
+{
+  "id": "platform_1752247692444",
+  "name": "Авито",
+  "icon": "🏳️‍🌈",
+  "color": "#00ff55",
+  "sizeGroups": [
+    {
+      "id": "group_1752247742977",
+      "name": "Размеры",
+      "sizes": [
+        "320x250",
+        "300x600"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1752247818725",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 500,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div onclick=\"window.open('{{DENIS}}'); buzzTrack('click');\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1752247990758",
+            "name": "Meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1752248081340",
+            "name": "buzzTrack",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script type=\"text/javascript\">buzzTrack('loaded');</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "imageToBase64": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        },
+        "inlineJs": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250711.1835",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-11T15:28:12.444Z",
+    "updated": "2025-07-11T15:35:54.527Z",
+    "license": "MIT",
+    "savedAt": "2025-07-11T15:35:32.483Z",
+    "lastModified": "2025-07-11T15:35:54.527Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
