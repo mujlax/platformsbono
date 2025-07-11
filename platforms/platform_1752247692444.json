@@ -24,7 +24,7 @@
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
-          "wrapperDiv": "<div onclick=\"window.open('{{DENISandSenya}}'); buzzTrack('click');\">",
+          "wrapperDiv": "<div onclick=\"window.open('{{Privet}}'); buzzTrack('click');\">",
           "enabled": true
         },
         "scriptInjections": [
@@ -85,15 +85,15 @@
     }
   ],
   "metadata": {
-    "version": "1.20250711.1840",
+    "version": "1.20250711.1842",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-11T15:28:12.444Z",
-    "updated": "2025-07-11T15:40:05.841Z",
+    "updated": "2025-07-11T15:42:58.562Z",
     "license": "MIT",
-    "savedAt": "2025-07-11T15:40:03.296Z",
-    "lastModified": "2025-07-11T15:40:05.841Z"
+    "savedAt": "2025-07-11T15:42:50.569Z",
+    "lastModified": "2025-07-11T15:42:58.562Z"
   },
   "isCustom": true,
   "source": {
