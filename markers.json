@@ -1,17 +1,11 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
   "created": "2024-01-01T00:00:00.000Z",
   "updated": "2024-12-30T16:25:00.000Z",
   "markers": [
-    {
-      "id": "html_head_end",
-      "name": "Конец секции <head>",
-      "value": "</head>",
-      "description": "Вставка перед закрывающим тегом </head>"
-    },
     {
       "id": "html_body_end",
       "name": "Конец секции <body>",
@@ -35,7 +29,13 @@
       "name": "Изображения для Base64",
       "value": "[{\"fileName\":\"index_atlas_NP_1.jpg\",\"id\":\"index_atlas_NP_1\"},{\"fileName\":\"index_atlas_P_1.png\",\"id\":\"index_atlas_P_1\"}]",
       "description": "Список изображений для замены на Base64"
+    },
+    {
+      "id": "111",
+      "name": "Конец секции <head>",
+      "value": "</head>",
+      "description": "wwww"
     }
   ],
-  "lastUpdated": "2025-07-09T14:09:31.371Z"
+  "lastUpdated": "2025-07-11T14:51:48.748Z"
 }
