@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.1",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -7,10 +7,52 @@
   "updated": "2024-12-30T16:25:00.000Z",
   "markers": [
     {
+      "id": "html_head_end",
+      "name": "Конец секции <head>",
+      "value": "</head>",
+      "description": "Вставка перед закрывающим тегом </head>"
+    },
+    {
       "id": "html_body_end",
       "name": "Конец секции <body>",
       "value": "</body>",
       "description": "Вставка перед закрывающим тегом </body>"
+    },
+    {
+      "id": "charset_script",
+      "name": "Meta charset",
+      "value": "<meta charset=\"UTF-8\">",
+      "description": "Meta charset"
+    },
+    {
+      "id": "just_script_110",
+      "name": "Пользовательский script",
+      "value": "<script>",
+      "description": "Маркер <script>"
+    },
+    {
+      "id": "just_script_230",
+      "name": "Пользовательский script",
+      "value": "<script src=\"index.js\"></script>",
+      "description": "Маркер <script src=\"index.js\"></script>"
+    },
+    {
+      "id": "just_script_125",
+      "name": "Пользовательский write code",
+      "value": "<!-- write your code here -->",
+      "description": "Маркер <!-- write your code here -->"
+    },
+    {
+      "id": "just_script_965",
+      "name": "Пользовательский <title>index</title>",
+      "value": "<title>index</title>",
+      "description": "Маркер <title>index</title>"
+    },
+    {
+      "id": "just_script_9625",
+      "name": "Пользовательский <body onload=\"init();\" style=\"margin:0px;\">",
+      "value": "<body onload=\"init();\" style=\"margin:0px;\">",
+      "description": "Маркер <body onload=\"init();\" style=\"margin:0px;\">"
     },
     {
       "id": "adobe_animate_meta",
@@ -21,7 +63,7 @@
     {
       "id": "createjs_url",
       "name": "CreateJS CDN URL",
-      "value": "https://code.createjs.com/1.0.0/createjs.min.js",
+      "value": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
       "description": "URL для загрузки CreateJS библиотеки"
     },
     {
@@ -29,13 +71,7 @@
       "name": "Изображения для Base64",
       "value": "[{\"fileName\":\"index_atlas_NP_1.jpg\",\"id\":\"index_atlas_NP_1\"},{\"fileName\":\"index_atlas_P_1.png\",\"id\":\"index_atlas_P_1\"}]",
       "description": "Список изображений для замены на Base64"
-    },
-    {
-      "id": "111",
-      "name": "Конец секции <head>",
-      "value": "</head>",
-      "description": "wwww"
     }
   ],
-  "lastUpdated": "2025-07-11T14:51:48.748Z"
+  "lastUpdated": "2025-07-11T14:52:15.766Z"
 }
