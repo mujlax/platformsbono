@@ -1,0 +1,62 @@
+{
+  "id": "platform_1752759753012",
+  "name": "sdfgh",
+  "icon": "🎯",
+  "color": "#007bff",
+  "sizeGroups": [
+    {
+      "id": "group_1752759759235",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250717.1642",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-17T13:42:33.012Z",
+    "updated": "2025-07-17T13:42:51.826Z",
+    "license": "MIT",
+    "savedAt": "2025-07-17T13:42:48.373Z",
+    "lastModified": "2025-07-17T13:42:51.826Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
