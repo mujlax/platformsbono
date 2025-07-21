@@ -1,0 +1,23 @@
+{
+  "id": "platform_1753108604499",
+  "name": "init",
+  "icon": "🎯",
+  "color": "#007bff",
+  "sizeGroups": [],
+  "metadata": {
+    "version": "1.20250721.1737",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-21T14:36:44.499Z",
+    "updated": "2025-07-21T14:37:00.081Z",
+    "license": "MIT",
+    "savedAt": "2025-07-21T14:36:54.688Z",
+    "lastModified": "2025-07-21T14:37:00.081Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
