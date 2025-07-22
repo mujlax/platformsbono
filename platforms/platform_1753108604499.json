@@ -10,7 +10,8 @@
       "sizes": [
         "240x400",
         "300x600",
-        "300x250"
+        "300x250",
+        "160x600"
       ],
       "validationRules": [],
       "firmwareSettings": {
@@ -52,15 +53,15 @@
     }
   ],
   "metadata": {
-    "version": "1.20250722.1335",
+    "version": "1.20250722.1342",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-21T14:36:44.499Z",
-    "updated": "2025-07-22T10:35:50.732Z",
+    "updated": "2025-07-22T10:42:40.615Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T10:35:47.457Z",
-    "lastModified": "2025-07-22T10:35:50.732Z"
+    "savedAt": "2025-07-22T10:42:37.467Z",
+    "lastModified": "2025-07-22T10:42:40.615Z"
   },
   "isCustom": true,
   "source": {
