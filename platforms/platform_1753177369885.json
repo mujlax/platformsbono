@@ -1,0 +1,155 @@
+{
+  "id": "platform_1753177369885",
+  "name": "AdFox",
+  "icon": "🎯",
+  "color": "#007bff",
+  "sizeGroups": [
+    {
+      "id": "group_1753177405920",
+      "name": "Стандарт статика",
+      "sizes": [
+        "160×600",
+        "240×400",
+        "240×600",
+        "300×250",
+        "300×300",
+        "300×500",
+        "300×600",
+        "320×50",
+        "320×100",
+        "320×480",
+        "336×280",
+        "480×320",
+        "728×90",
+        "970×250",
+        "1000×120"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753177648503",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1753177659413",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 65,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1753177667991",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 500,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1753177487057",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753177504267",
+            "name": "Creatjs nonce",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1753177548218",
+            "name": "Script nonce",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1753177595347",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "imageToBase64": {
+          "enabled": false
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250722.1253",
+    "author": "den4ik",
+    "description": "Адфокс для статика",
+    "tags": [],
+    "created": "2025-07-22T09:42:49.885Z",
+    "updated": "2025-07-22T09:53:50.284Z",
+    "license": "MIT",
+    "savedAt": "2025-07-22T09:53:48.072Z",
+    "lastModified": "2025-07-22T09:53:50.284Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
