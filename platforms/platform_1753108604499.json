@@ -9,7 +9,8 @@
       "name": "Новая группа размеров",
       "sizes": [
         "240x400",
-        "300x600"
+        "300x600",
+        "300x250"
       ],
       "validationRules": [],
       "firmwareSettings": {
@@ -56,10 +57,10 @@
     "description": "",
     "tags": [],
     "created": "2025-07-21T14:36:44.499Z",
-    "updated": "2025-07-22T10:35:01.151Z",
+    "updated": "2025-07-22T10:35:50.732Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T10:34:54.157Z",
-    "lastModified": "2025-07-22T10:35:01.151Z"
+    "savedAt": "2025-07-22T10:35:47.457Z",
+    "lastModified": "2025-07-22T10:35:50.732Z"
   },
   "isCustom": true,
   "source": {
