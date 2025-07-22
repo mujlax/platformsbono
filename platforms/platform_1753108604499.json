@@ -6,7 +6,7 @@
   "sizeGroups": [
     {
       "id": "group_1753181027817",
-      "name": "Aleeeee12121212",
+      "name": "Aleeeee12121212ssssus",
       "sizes": [
         "160x600",
         "240x400",
@@ -55,19 +55,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250722.1358",
+    "version": "1.20250722.1416",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-21T14:36:44.499Z",
-    "updated": "2025-07-22T10:58:20.705Z",
+    "updated": "2025-07-22T11:16:08.111Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T10:58:15.230Z",
-    "lastModified": "2025-07-22T10:58:20.705Z"
+    "savedAt": "2025-07-22T11:16:05.365Z",
+    "lastModified": "2025-07-22T11:16:08.111Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.0.0"
+    "version": "1.20250722.1416"
   }
 }
