@@ -8,7 +8,8 @@
       "id": "group_1753179621516",
       "name": "Новая группа размеров",
       "sizes": [
-        "240x400"
+        "240x400",
+        "300x600"
       ],
       "validationRules": [],
       "firmwareSettings": {
@@ -50,15 +51,15 @@
     }
   ],
   "metadata": {
-    "version": "1.20250722.1320",
+    "version": "1.20250722.1335",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-21T14:36:44.499Z",
-    "updated": "2025-07-22T10:20:34.476Z",
+    "updated": "2025-07-22T10:35:01.151Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T10:20:31.425Z",
-    "lastModified": "2025-07-22T10:20:34.476Z"
+    "savedAt": "2025-07-22T10:34:54.157Z",
+    "lastModified": "2025-07-22T10:35:01.151Z"
   },
   "isCustom": true,
   "source": {
