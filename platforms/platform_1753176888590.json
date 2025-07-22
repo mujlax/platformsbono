@@ -1,0 +1,119 @@
+{
+  "id": "platform_1753176888590",
+  "name": "Avito",
+  "icon": "🏳️‍🌈",
+  "color": "#ea76cb",
+  "sizeGroups": [
+    {
+      "id": "group_1753176910589",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "300x600",
+        "320x250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753177210271",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 500,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div onclick=\"window.open('{{URL}}'); buzzTrack('click');\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1753177068794",
+            "name": "buzzola",
+            "marker": "<!-- write your code here -->",
+            "markerId": "just_script_125",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://tube.buzzoola.com/new/js/lib/banner.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753177141432",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753177183824",
+            "name": "buzztrack",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script type=\"text/javascript\">buzzTrack('loaded');</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        },
+        "inlineJs": {
+          "enabled": true
+        },
+        "imageToBase64": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250722.1241",
+    "author": "den4ik",
+    "description": "Авито На Авито",
+    "tags": [],
+    "created": "2025-07-22T09:34:48.590Z",
+    "updated": "2025-07-22T09:41:09.989Z",
+    "license": "MIT",
+    "savedAt": "2025-07-22T09:41:05.710Z",
+    "lastModified": "2025-07-22T09:41:09.989Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.0.0"
+  }
+}
