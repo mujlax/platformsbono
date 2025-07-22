@@ -3,17 +3,65 @@
   "name": "init",
   "icon": "🎯",
   "color": "#007bff",
-  "sizeGroups": [],
+  "sizeGroups": [
+    {
+      "id": "group_1753181027817",
+      "name": "Aleeeee12121212",
+      "sizes": [
+        "160x600",
+        "240x400",
+        "100x100",
+        "300x300"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"{{CLICK_URL}}\" target=\"_blank\" style=\"display:block;text-decoration:none;\"></a>",
+          "enabled": true
+        },
+        "scriptInjections": [],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": false
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
   "metadata": {
-    "version": "1.20250722.1343",
+    "version": "1.20250722.1350",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-21T14:36:44.499Z",
-    "updated": "2025-07-22T10:43:22.037Z",
+    "updated": "2025-07-22T10:50:00.003Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T10:43:19.571Z",
-    "lastModified": "2025-07-22T10:43:22.037Z"
+    "savedAt": "2025-07-22T10:49:56.368Z",
+    "lastModified": "2025-07-22T10:50:00.003Z"
   },
   "isCustom": true,
   "source": {
