@@ -137,15 +137,15 @@
     }
   ],
   "metadata": {
-    "version": "1.20250722.1253",
+    "version": "1.20250722.1326",
     "author": "den4ik",
     "description": "Адфокс для статика",
     "tags": [],
     "created": "2025-07-22T09:42:49.885Z",
-    "updated": "2025-07-22T09:53:50.284Z",
+    "updated": "2025-07-22T10:26:38.240Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T09:53:48.072Z",
-    "lastModified": "2025-07-22T09:53:50.284Z"
+    "savedAt": "2025-07-22T10:26:34.847Z",
+    "lastModified": "2025-07-22T10:26:38.240Z"
   },
   "isCustom": true,
   "source": {
