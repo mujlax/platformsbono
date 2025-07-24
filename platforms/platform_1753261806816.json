@@ -1,0 +1,74 @@
+{
+  "id": "platform_1753261806816",
+  "name": "Base64",
+  "icon": "🎯",
+  "color": "#007bff",
+  "sizeGroups": [
+    {
+      "id": "group_1753261814726",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": false
+        },
+        "cleanupSettings": {
+          "enabled": false
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": false
+        },
+        "archiveSettings": {
+          "enabled": false
+        },
+        "imageToBase64": {
+          "enabled": true
+        },
+        "inlineJs": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250724.1748",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-23T09:10:06.816Z",
+    "updated": "2025-07-24T14:48:17.473Z",
+    "license": "MIT",
+    "savedAt": "2025-07-24T14:48:12.964Z",
+    "lastModified": "2025-07-24T14:48:17.473Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250724.1748"
+  }
+}
