@@ -1,5 +1,5 @@
 {
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -71,7 +71,19 @@
       "name": "Изображения для Base64",
       "value": "[{\"fileName\":\"index_atlas_NP_1.jpg\",\"id\":\"index_atlas_NP_1\"},{\"fileName\":\"index_atlas_P_1.png\",\"id\":\"index_atlas_P_1\"}]",
       "description": "Список изображений для замены на Base64"
+    },
+    {
+      "id": "marker_1753353076225",
+      "name": "var canvas",
+      "value": "var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;",
+      "description": "var cnavas"
+    },
+    {
+      "id": "marker_17533531924622",
+      "name": "loader.loadManifest",
+      "value": "loader.loadManifest(lib.properties.manifest);",
+      "description": "loadManifest"
     }
   ],
-  "lastUpdated": "2025-07-21T14:37:18.318Z"
+  "lastUpdated": "2025-07-24T10:49:17.846Z"
 }
