@@ -89,6 +89,79 @@
       }
     },
     {
+      "id": "group_1753374173495",
+      "name": "Статика (копия)",
+      "sizes": [
+        "300x250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753199635609",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1753199650812",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1753199657565",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
       "id": "group_1753199676215",
       "name": "Адаптив",
       "sizes": [
@@ -174,19 +247,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250724.1746",
+    "version": "1.20250728.1413",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-22T15:52:09.744Z",
-    "updated": "2025-07-24T14:46:58.794Z",
+    "updated": "2025-07-28T11:13:25.760Z",
     "license": "MIT",
-    "savedAt": "2025-07-24T14:46:51.979Z",
-    "lastModified": "2025-07-24T14:46:58.794Z"
+    "savedAt": "2025-07-28T11:13:20.171Z",
+    "lastModified": "2025-07-28T11:13:25.760Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250724.1746"
+    "version": "1.20250728.1413"
   }
 }
