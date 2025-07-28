@@ -10,31 +10,41 @@ domOverlay.style.boxSizing = 'border-box';`
     id: 2,
     title: 'Инициализация и адаптивная раскладка баннера',
     code: `_main = this;
-sost_1 = this.sost_1;
+            //sost_1 = this.sost_1;
 
 //Рамка в 1px
 var domOverlay = document.getElementById("dom_overlay_container");
 domOverlay.style.border = '1px solid #666666';
 domOverlay.style.boxSizing = 'border-box';
 
-var page_body = document.getElementsByTagName('body')[0];
-page_body.style.overflow = 'hidden';
+var minBannerWidth = 300;
+var maxBannerWidth = 6000;
 
 function animBanner() {
-  var nowW = clamp(document.documentElement.clientWidth, 240, 3000);
-  var nowWcenter = nowW / 2;
+    var nowW = clamp(document.documentElement.clientWidth, minBannerWidth, maxBannerWidth); //Ограничить ширину баннера ex: от X до X
 
-  canvas.width = domOverlay.width = page_body.width = html.width = animation_container.width = nowW * window.devicePixelRatio;
-  canvas.style.width = domOverlay.style.width = page_body.style.width = html.style.width = animation_container.style.width = nowW + 'px';
-
+    if (nowW > minBannerWidth) {
+		canvas.width = domOverlay.width = animation_container.width = nowW * window.devicePixelRatio;
+		canvas.style.width = domOverlay.style.width = animation_container.style.width = 100 + "%";
+	} else {
+		canvas.width = domOverlay.width = animation_container.width = nowW * window.devicePixelRatio;
+		canvas.style.width = domOverlay.style.width = animation_container.style.width = nowW + "px";
+	}
   if (nowW > 320) {
     _main.VO.x = nowW;
-    sost_1.x = nowWcenter;
+    //sost_1.x = nowW / 2; центровка
   }
 }
 
+//createjs.Tween.get(sost_240.boss_2).to({x:(nowW - 240) / 2}, 1000, createjs.Ease.cubicInOut);
+
+
+
 animBanner();
 window.onresize = animBanner;
+
+var page_body = document.getElementsByTagName('body')[0];
+page_body.style.overflow = 'hidden';
 
 function clamp(num, min, max) {
   return num <= min ? min : num >= max ? max : num;
