@@ -54,16 +54,6 @@
             "insertPosition": "after"
           },
           {
-            "id": "script_1753707421666",
-            "name": "creatjs swap",
-            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
-            "markerId": "createjs_url",
-            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
-            "deleteMarker": true,
-            "enabled": true,
-            "insertPosition": "before"
-          },
-          {
             "id": "script_1753707465450",
             "name": "scropt swap",
             "marker": "<script>",
@@ -120,19 +110,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250728.1600",
+    "version": "1.20250728.1655",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-28T12:55:39.407Z",
-    "updated": "2025-07-28T13:00:23.334Z",
+    "updated": "2025-07-28T13:55:01.163Z",
     "license": "MIT",
-    "savedAt": "2025-07-28T13:00:20.468Z",
-    "lastModified": "2025-07-28T13:00:23.334Z"
+    "savedAt": "2025-07-28T13:54:53.444Z",
+    "lastModified": "2025-07-28T13:55:01.163Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250728.1600"
+    "version": "1.20250728.1654"
   }
 }
