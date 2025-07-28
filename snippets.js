@@ -23,7 +23,7 @@ var maxBannerWidth = 6000;
 function animBanner() {
     var nowW = clamp(document.documentElement.clientWidth, minBannerWidth, maxBannerWidth); //Ограничить ширину баннера ex: от X до X
 
-    if (nowW > minBannerWidth) {
+    if (nowW > minBannerWidth && nowW < maxBannerWidth) {
 		canvas.width = domOverlay.width = animation_container.width = nowW * window.devicePixelRatio;
 		canvas.style.width = domOverlay.style.width = animation_container.style.width = 100 + "%";
 	} else {
