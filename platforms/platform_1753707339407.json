@@ -1,0 +1,138 @@
+{
+  "id": "platform_1753707339407",
+  "name": "AdIndex",
+  "icon": "🌐",
+  "color": "#59ff00",
+  "sizeGroups": [
+    {
+      "id": "group_1753707352084",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753707546459",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 65,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1753707551808",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 600,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1753707570617",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1753707400886",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753707421666",
+            "name": "creatjs swap",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1753707465450",
+            "name": "scropt swap",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1753707492856",
+            "name": "indesjs swap",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250728.1600",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-28T12:55:39.407Z",
+    "updated": "2025-07-28T13:00:23.334Z",
+    "license": "MIT",
+    "savedAt": "2025-07-28T13:00:20.468Z",
+    "lastModified": "2025-07-28T13:00:23.334Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250728.1600"
+  }
+}
