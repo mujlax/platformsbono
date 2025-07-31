@@ -1,0 +1,200 @@
+{
+  "id": "platform_1753950334118",
+  "name": "Weborama",
+  "icon": "🎪",
+  "color": "#ff0019",
+  "sizeGroups": [
+    {
+      "id": "group_1753950346682",
+      "name": "Статика",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753950737067",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 1000,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:screenad.click('default')\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1753950374207",
+            "name": "bnrR",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script>var _bnrR = 0;</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753950444523",
+            "name": "screenad_interface",
+            "marker": "<title>index</title>",
+            "markerId": "just_script_965",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://cstatic-ru-cv.weborama-tech.ru/public/js/advertiserv2/ru/screenad_interface_1.0.3_scrambled.js\"></script>\n<!-- write your code here -->\n<!-- ADRIME SCREENAD META DATA (don't edit/remove) -->\n<!-- SCRVERSION: screenad_interface_1.0.3 -->\n<!-- SCRFORMAT: banner -->\n<!-- SCRWIDTH: {{WIDTH}} -->\n<!-- SCRHEIGHT: {{HEIGHT}} -->",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753950641599",
+            "name": "мета",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": true,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1753950944794",
+      "name": "Адаптив",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753950737067",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 1000,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:screenad.click('default')\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1753950944794_4zo44itfb",
+            "name": "bnrR",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script>\n                    var _bnrR = 0;\n                    var bannerWidth = \"100%\";\n                    var bannerHeight = {{HEIGHT}};\n                    screenad.position('width=' + bannerWidth + '&height=' + bannerHeight + '&hor=left&ver=banner&hide=false&sticky=false&offx=0&offy=0 &cliprect=auto,auto,auto,auto&antizoom=false&smooth=0');\n                    </script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753950944794_ktsox3nfg",
+            "name": "screenad_interface",
+            "marker": "<title>index</title>",
+            "markerId": "just_script_965",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://cstatic-ru-cv.weborama-tech.ru/public/js/advertiserv2/ru/screenad_interface_1.0.3_scrambled.js\"></script>\n<!-- write your code here -->\n<!-- ADRIME SCREENAD META DATA (don't edit/remove) -->\n<!-- SCRVERSION: screenad_interface_1.0.3 -->\n<!-- SCRFORMAT: banner -->\n<!-- SCRWIDTH: 100 -->\n<!-- SCRHEIGHT: {{HEIGHT}} -->",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1753950944794_vdbdmuxt1",
+            "name": "мета",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": true,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250731.1138",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-07-31T08:25:34.118Z",
+    "updated": "2025-07-31T08:38:52.613Z",
+    "license": "MIT",
+    "savedAt": "2025-07-31T08:38:47.838Z",
+    "lastModified": "2025-07-31T08:38:52.613Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250731.1138"
+  }
+}
