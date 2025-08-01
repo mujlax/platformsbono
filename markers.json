@@ -1,5 +1,5 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "Базовые маркеры",
   "description": "Стандартный набор маркеров для прошивки баннеров",
   "author": "System",
@@ -85,5 +85,5 @@
       "description": "loadManifest"
     }
   ],
-  "lastUpdated": "2025-07-24T10:49:17.846Z"
+  "lastUpdated": "2025-08-01T08:45:58.730Z"
 }
