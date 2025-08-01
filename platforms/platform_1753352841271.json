@@ -106,22 +106,125 @@
           "enabled": true
         }
       }
+    },
+    {
+      "id": "group_1754036993068",
+      "name": "растяжки",
+      "sizes": [
+        "adaptive-200",
+        "adaptive-250"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754036993068_d5vgfn7wr",
+            "name": "мета",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754036993068_gq73hk7mw",
+            "name": "creatjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingCachedScripts/libraries/createjs/1_0_0/createjs.min.js\"></script>\n                 <script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingScript/EBLoader.js\"></script>\n                 <style type=\"text/css\">\n                 body { margin:0px; overflow-x: hidden; }\n                 #canvas { cursor: pointer; width: {{WIDTH}}px; height: {{HEIGHT}}px; }\n                 </style>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754036993068_wtvxckko7",
+            "name": "Новый скрипт",
+            "marker": "var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;",
+            "markerId": "marker_1753353076225",
+            "scriptToInsert": "function isLocal(){\n                   return /(adserving\\.ru|file:\\/\\/\\/|192\\.168\\.|127\\.0\\.0\\.1)/.test(window.location.href);\n                 }\n                 function clickthrough1(){\n                    EB.clickthrough();\n                    if(isLocal()){\n                       console.log('> click');\n                    }\n                 }\n                 function initEB() {\n                    if (!EB.isInitialized()) {\n                       EB.addEventListener(EBG.EventName.EB_INITIALIZED, startAd);\n                    } else {\n                       startAd();\n                    }\n                 }\n                 function startAd() {\n                    init();\n                 }\n                 if(isLocal()){\n                    console.log(' -- Sizmek, 2018-10-12 -- ');\n                 }\n                var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754036993068_265wd8ecw",
+            "name": "Новый скрипт",
+            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
+            "markerId": "just_script_9625",
+            "scriptToInsert": "<body onload=\"initEB();\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754036993068_iu6z7oeni",
+            "name": "Новый скрипт",
+            "marker": "loader.loadManifest(lib.properties.manifest);",
+            "markerId": "marker_17533531924622",
+            "scriptToInsert": "anim_container.addEventListener('click', clickthrough1);",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": true,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        },
+        "imageToBase64": {
+          "enabled": true
+        }
+      }
     }
   ],
   "metadata": {
-    "version": "1.20250728.1454",
+    "version": "1.20250801.1155",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-24T10:27:21.271Z",
-    "updated": "2025-07-28T11:54:09.528Z",
+    "updated": "2025-08-01T08:55:15.399Z",
     "license": "MIT",
-    "savedAt": "2025-07-28T11:54:04.352Z",
-    "lastModified": "2025-07-28T11:54:09.528Z"
+    "savedAt": "2025-08-01T08:54:44.770Z",
+    "lastModified": "2025-08-01T08:55:15.399Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250728.1454"
+    "version": "1.20250801.1154"
   }
 }
