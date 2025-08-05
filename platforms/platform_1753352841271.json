@@ -68,6 +68,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1754379140737",
+            "name": "Meta2",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -137,7 +147,7 @@
             "name": "creatjs",
             "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
             "markerId": "createjs_url",
-            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingCachedScripts/libraries/createjs/1_0_0/createjs.min.js\"></script>\n                 <script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingScript/EBLoader.js\"></script>\n                 <style type=\"text/css\">\n                 body { margin:0px; overflow-x: hidden; }\n                 #canvas { cursor: pointer; width: {{WIDTH}}px; height: {{HEIGHT}}px; }\n                 </style>",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingCachedScripts/libraries/createjs/1_0_0/createjs.min.js\"></script>\n                 <script type=\"text/javascript\" src=\"https://ds.serving-sys.ru/BurstingScript/EBLoader.js\"></script>\n                 <style type=\"text/css\">\n                 body { margin:0px; overflow-x: hidden; }\n                 #canvas { cursor: pointer; width: {{WIDTH}}; height: {{HEIGHT}}px; }\n                 </style>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -168,6 +178,16 @@
             "marker": "loader.loadManifest(lib.properties.manifest);",
             "markerId": "marker_17533531924622",
             "scriptToInsert": "anim_container.addEventListener('click', clickthrough1);",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754379191649",
+            "name": "Meta2",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1\">",
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
@@ -212,19 +232,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250801.1155",
+    "version": "1.20250805.1033",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-24T10:27:21.271Z",
-    "updated": "2025-08-01T08:55:15.399Z",
+    "updated": "2025-08-05T07:33:45.226Z",
     "license": "MIT",
-    "savedAt": "2025-08-01T08:54:44.770Z",
-    "lastModified": "2025-08-01T08:55:15.399Z"
+    "savedAt": "2025-08-05T07:33:28.545Z",
+    "lastModified": "2025-08-05T07:33:45.226Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250801.1154"
+    "version": "1.20250805.1033"
   }
 }
