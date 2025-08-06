@@ -1,0 +1,214 @@
+{
+  "id": "platform_1754476763230",
+  "name": "Sravni",
+  "icon": "🌘",
+  "color": "#0a2f57",
+  "sizeGroups": [
+    {
+      "id": "group_1754476777074",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754476787271",
+            "name": "MEta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754476817426",
+            "name": "creatjs add",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://cdn.jsdelivr.net/npm/createjs@1.0.1/builds/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754476862424",
+            "name": "script",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754476881843",
+            "name": "index.js",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754476961064",
+            "name": "head ",
+            "marker": "</head>",
+            "markerId": "html_head_end",
+            "scriptToInsert": "<style type=\"text/css\">\n\t* {\n\t\tmargin: 0px;\n\t\tpadding: 0px;\n\t\tbox-sizing: border-box;\n\t}\n\t.banner, .frame, .fon {\n\t\tposition: absolute;\n\t\toverflow: hidden;\n\t\tcursor: pointer;\n\t\twidth: 100%;\n\t\theight: 90px;\n\t\tz-index: 20;\n\t\tborder-radius: 20px;\n\t}\n\t#animation_container {\n\t\tborder-radius: 20px;\n\t}\n\t#canvas {\n\t\tborder-radius: 20px;\n\t\twidth: 100% !important; \n\t\theight: auto !important;\n\t}\n\t#dom_overlay_container {\n\t\tborder-radius: 20px;\n\t\tborder: none !important;\n\t}\n\t.frame {\n\t\tpointer-events: none;\n\t\tborder: 1px solid #dadada;\n\t\tz-index: 150;\n\t}\n\t.fon {\n\t\tleft: 0px;\n\t\tz-index: 10;\n\t\tbackground: #000;\n\t}\n</style>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "id": "group_1754477082627",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754477082627_wtan8i8ay",
+            "name": "MEta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754477082627_u6lx7j6yt",
+            "name": "creatjs add",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://cdn.jsdelivr.net/npm/createjs@1.0.1/builds/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754477082627_70tz6m2gm",
+            "name": "script",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754477082627_ewvbo2ok7",
+            "name": "index.js",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1754477082627_2e7cgrai9",
+            "name": "head ",
+            "marker": "</head>",
+            "markerId": "html_head_end",
+            "scriptToInsert": "<style type=\"text/css\">\n\t* {\n\t\tmargin: 0px;\n\t\tpadding: 0px;\n\t\tbox-sizing: border-box;\n\t}\n\t.banner, .frame, .fon {\n\t\tposition: absolute;\n\t\toverflow: hidden;\n\t\tcursor: pointer;\n\t\twidth: 100%;\n\t\theight: 90px;\n\t\tz-index: 20;\n\t\tborder-radius: 20px;\n\t}\n\t#animation_container {\n\t\tborder-radius: 20px;\n\t}\n\t#canvas {\n\t\tborder-radius: 20px;\n\t\twidth: 100% !important; \n\t\theight: auto !important;\n\t}\n\t#dom_overlay_container {\n\t\tborder-radius: 20px;\n\t\tborder: none !important;\n\t}\n\t.frame {\n\t\tpointer-events: none;\n\t\tborder: 1px solid #dadada;\n\t\tz-index: 150;\n\t}\n\t.fon {\n\t\tleft: 0px;\n\t\tz-index: 10;\n\t\tbackground: #000;\n\t}\n</style>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250806.1345",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:39:23.230Z",
+    "updated": "2025-08-06T10:45:08.946Z",
+    "license": "MIT",
+    "savedAt": "2025-08-06T10:45:06.244Z",
+    "lastModified": "2025-08-06T10:45:08.946Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250806.1345"
+  }
+}
