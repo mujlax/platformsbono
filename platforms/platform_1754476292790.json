@@ -1,0 +1,180 @@
+{
+  "id": "platform_1754476292790",
+  "name": "Rambler",
+  "icon": "💫",
+  "color": "#ff2600",
+  "sizeGroups": [
+    {
+      "id": "group_1754476303708",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754476394007",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754476312934",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754476324532",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1754476446122",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754476394007",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754476446122_j7dl0x7t9",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754476446122_kbo62g8bc",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250806.1334",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:31:32.790Z",
+    "updated": "2025-08-06T10:34:34.857Z",
+    "license": "MIT",
+    "savedAt": "2025-08-06T10:34:32.193Z",
+    "lastModified": "2025-08-06T10:34:34.857Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250806.1334"
+  }
+}
