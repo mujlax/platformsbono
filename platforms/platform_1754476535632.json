@@ -1,0 +1,142 @@
+{
+  "id": "platform_1754476535632",
+  "name": "Sostav",
+  "icon": "📦",
+  "color": "#935806",
+  "sizeGroups": [
+    {
+      "id": "group_1754476565416",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754476587305",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1754476665984",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754476665984_3aoii1b7z",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250806.1338",
+    "author": "den4ik",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:35:35.632Z",
+    "updated": "2025-08-06T10:38:14.604Z",
+    "license": "MIT",
+    "savedAt": "2025-08-06T10:38:10.924Z",
+    "lastModified": "2025-08-06T10:38:14.604Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250806.1338"
+  }
+}
