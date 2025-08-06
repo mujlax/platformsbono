@@ -1,0 +1,212 @@
+{
+  "id": "platform_1754475722568",
+  "name": "MyWayMag",
+  "icon": "🎭",
+  "color": "#f4eb85",
+  "sizeGroups": [
+    {
+      "id": "group_1754475743252",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754475840634",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 65,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1754475846888",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 600,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1754475856136",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div class=\"button\" onclick=\"return ar_callLink( {target: '_blank'} );\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754475757188",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754475774766",
+            "name": "html.js",
+            "marker": "<!-- write your code here -->",
+            "markerId": "just_script_125",
+            "scriptToInsert": "<script src=\"/html.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1754475878409",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754475840634",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 65,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1754475846888",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 600,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1754475856136",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div class=\"button\" onclick=\"return ar_callLink( {target: '_blank'} );\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754475878409_6klyvk05g",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754475878409_026nzj6mz",
+            "name": "html.js",
+            "marker": "<!-- write your code here -->",
+            "markerId": "just_script_125",
+            "scriptToInsert": "<script src=\"/html.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250806.1325",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:22:02.568Z",
+    "updated": "2025-08-06T10:25:30.613Z",
+    "license": "MIT",
+    "savedAt": "2025-08-06T10:25:26.496Z",
+    "lastModified": "2025-08-06T10:25:30.613Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250806.1325"
+  }
+}
