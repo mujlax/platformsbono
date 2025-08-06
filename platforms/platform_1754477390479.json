@@ -1,0 +1,154 @@
+{
+  "id": "platform_1754477390479",
+  "name": "Segmento",
+  "icon": "💠",
+  "color": "#779fca",
+  "sizeGroups": [
+    {
+      "id": "group_1754477399811",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:void(window.open(window.clickTag))\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754477406657",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754477421004",
+            "name": "clicktag",
+            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
+            "markerId": "just_script_9625",
+            "scriptToInsert": "<script>var clickTag = \"http://www.google.com\";</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": false
+        },
+        "cleanupSettings": {
+          "enabled": false
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "id": "group_1754477489735",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:void(window.open(window.clickTag))\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754477489735_75hbqdy16",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1754477489735_5ek79bhpi",
+            "name": "clicktag",
+            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
+            "markerId": "just_script_9625",
+            "scriptToInsert": "<script>var clickTag = \"http://www.google.com\";</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": false
+        },
+        "jsOptimization": {
+          "enabled": false
+        },
+        "imageOptimization": {
+          "enabled": false
+        },
+        "cleanupSettings": {
+          "enabled": false
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250806.1352",
+    "author": "den4ik",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:49:50.479Z",
+    "updated": "2025-08-06T10:52:06.112Z",
+    "license": "MIT",
+    "savedAt": "2025-08-06T10:52:03.564Z",
+    "lastModified": "2025-08-06T10:52:06.112Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250806.1352"
+  }
+}
