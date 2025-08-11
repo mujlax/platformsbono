@@ -1,0 +1,92 @@
+{
+  "id": "platform_1754477230154",
+  "name": "Mail",
+  "icon": "🟣",
+  "color": "#f297da",
+  "sizeGroups": [
+    {
+      "id": "group_1754477243518",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-90"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754477324340",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%link1%\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1754477263567",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250811.1700",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2025-08-06T10:47:10.154Z",
+    "updated": "2025-08-11T14:00:56.052Z",
+    "license": "MIT",
+    "savedAt": "2025-08-11T14:00:49.960Z",
+    "lastModified": "2025-08-11T14:00:56.052Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250811.1700"
+  }
+}
