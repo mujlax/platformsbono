@@ -75,7 +75,7 @@ this.gotoAndPlay(20);`
 {
     id: 5,
     title: 'Символ для T2',
-    code: ` , , `
+    code: ` ,  , `
   }
 	
 ];
