@@ -69,25 +69,25 @@
         },
         "borderSettings": {
           "enabled": true,
-          "shouldBorder": true
+          "shouldBorder": false
         }
       }
     }
   ],
   "metadata": {
-    "version": "1.20250827.1318",
+    "version": "1.20250827.1319",
     "author": "den4ik",
     "description": "init",
     "tags": [],
     "created": "2025-08-27T10:15:06.018Z",
-    "updated": "2025-08-27T10:18:57.276Z",
+    "updated": "2025-08-27T10:19:38.651Z",
     "license": "MIT",
-    "savedAt": "2025-08-27T10:18:53.743Z",
-    "lastModified": "2025-08-27T10:18:57.276Z"
+    "savedAt": "2025-08-27T10:19:34.726Z",
+    "lastModified": "2025-08-27T10:19:38.651Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250827.1318"
+    "version": "1.20250827.1319"
   }
 }
