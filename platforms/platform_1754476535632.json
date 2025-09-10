@@ -10,7 +10,16 @@
       "sizes": [
         "240x400"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1757491182839",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -69,7 +78,16 @@
       "sizes": [
         "adaptive-200"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1757491168564",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -124,19 +142,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1338",
+    "version": "1.20250910.1100",
     "author": "den4ik",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:35:35.632Z",
-    "updated": "2025-08-06T10:38:14.604Z",
+    "updated": "2025-09-10T08:00:08.800Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T10:38:10.924Z",
-    "lastModified": "2025-08-06T10:38:14.604Z"
+    "savedAt": "2025-09-10T07:59:54.680Z",
+    "lastModified": "2025-09-10T08:00:08.800Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1338"
+    "version": "1.20250910.1059"
   }
 }
