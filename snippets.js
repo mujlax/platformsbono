@@ -30,7 +30,7 @@ function animBanner() {
 		canvas.width = domOverlay.width = animation_container.width = nowW * window.devicePixelRatio;
 		canvas.style.width = domOverlay.style.width = animation_container.style.width = nowW + "px";
 	}
-  if (nowW > 320) {
+  if (nowW >= 320) {
     _main.VO.x = nowW;
     //sost_1.x = nowW / 2; центровка
   }
