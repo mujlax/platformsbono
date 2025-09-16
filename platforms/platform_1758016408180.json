@@ -1,0 +1,160 @@
+{
+  "id": "platform_1758016408180",
+  "name": "mediaSniper",
+  "icon": "🍆",
+  "color": "#8c00ff",
+  "sizeGroups": [
+    {
+      "id": "group_1758016433622",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1758016544201",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 4,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"{LINK_UNESC}\" target=\"_blank\" style=\"display:block;text-decoration:none;\"></a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1758016517063",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1758016631011",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1758016544201",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 4,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"{LINK_UNESC}\" target=\"_blank\" style=\"display:block;text-decoration:none;\"></a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1758016631011_po8xdlo6w",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20250916.1258",
+    "author": "den4ik",
+    "description": "https://mediasniper.readme.io/docs/tr-banners",
+    "tags": [],
+    "created": "2025-09-16T09:53:28.180Z",
+    "updated": "2025-09-16T09:58:34.314Z",
+    "license": "MIT",
+    "savedAt": "2025-09-16T09:58:29.621Z",
+    "lastModified": "2025-09-16T09:58:34.314Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20250916.1258"
+  }
+}
