@@ -83,6 +83,84 @@
       }
     },
     {
+      "id": "group_1760003711289",
+      "name": "Branding",
+      "sizes": [
+        "2100x1100"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1754476394007",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1760003711290_52jg17e2v",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1760003711290_rvf2prvv8",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": false
+        }
+      }
+    },
+    {
       "id": "group_1754476446122",
       "name": "Adaptive",
       "sizes": [
@@ -162,19 +240,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1334",
+    "version": "1.20251009.1257",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:31:32.790Z",
-    "updated": "2025-08-06T10:34:34.857Z",
+    "updated": "2025-10-09T09:57:00.460Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T10:34:32.193Z",
-    "lastModified": "2025-08-06T10:34:34.857Z"
+    "savedAt": "2025-10-09T09:56:39.432Z",
+    "lastModified": "2025-10-09T09:57:00.460Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1334"
+    "version": "1.20251009.1256"
   }
 }
