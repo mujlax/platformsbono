@@ -261,22 +261,109 @@
           "shouldBorder": true
         }
       }
+    },
+    {
+      "id": "group_1760100405106",
+      "name": "250 и 180 без рамки",
+      "sizes": [
+        "adaptive-180",
+        "adaptive-250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1753186555415",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1753186566028",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 500,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a id=\"click_area\" href=\"#\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1760100405106_yjhdj8av4",
+            "name": "клик с ошибкой",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script>document.getElementById(\"click_area\").href = yandexHTML5BannerApi.getClickURLNum(1);</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1760100405106_jw3z3xkch",
+            "name": "Мета",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": false
+        }
+      }
     }
   ],
   "metadata": {
-    "version": "1.20250728.1828",
+    "version": "1.20251010.1547",
     "author": "den4ik",
     "description": "инит",
     "tags": [],
     "created": "2025-07-22T12:13:54.722Z",
-    "updated": "2025-07-28T15:28:22.058Z",
+    "updated": "2025-10-10T12:47:59.955Z",
     "license": "MIT",
-    "savedAt": "2025-07-28T15:28:15.505Z",
-    "lastModified": "2025-07-28T15:28:22.058Z"
+    "savedAt": "2025-10-10T12:47:44.546Z",
+    "lastModified": "2025-10-10T12:47:59.955Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250728.1828"
+    "version": "1.20251010.1547"
   }
 }
