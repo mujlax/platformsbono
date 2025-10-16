@@ -1,8 +1,8 @@
 {
   "id": "platform_1753352841271",
-  "name": "PBD",
-  "icon": "🎯",
-  "color": "#007bff",
+  "name": "Sizmek (AdServing)",
+  "icon": "💠",
+  "color": "#71a9e5",
   "sizeGroups": [
     {
       "id": "group_1753352901519",
@@ -232,19 +232,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250805.1033",
+    "version": "1.20251016.1004",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-24T10:27:21.271Z",
-    "updated": "2025-08-05T07:33:45.226Z",
+    "updated": "2025-10-16T07:04:45.093Z",
     "license": "MIT",
-    "savedAt": "2025-08-05T07:33:28.545Z",
-    "lastModified": "2025-08-05T07:33:45.226Z"
+    "savedAt": "2025-10-16T07:00:56.717Z",
+    "lastModified": "2025-10-16T07:04:45.093Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250805.1033"
+    "version": "1.20251016.1000"
   }
 }
