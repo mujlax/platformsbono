@@ -113,7 +113,7 @@
           "shouldBorder": true
         },
         "imageToBase64": {
-          "enabled": true
+          "enabled": false
         }
       }
     },
@@ -226,25 +226,25 @@
           "shouldBorder": true
         },
         "imageToBase64": {
-          "enabled": true
+          "enabled": false
         }
       }
     }
   ],
   "metadata": {
-    "version": "1.20251016.1004",
+    "version": "1.20251027.1937",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-24T10:27:21.271Z",
-    "updated": "2025-10-16T07:04:45.093Z",
+    "updated": "2025-10-27T16:37:54.561Z",
     "license": "MIT",
-    "savedAt": "2025-10-16T07:00:56.717Z",
-    "lastModified": "2025-10-16T07:04:45.093Z"
+    "savedAt": "2025-10-27T16:37:36.559Z",
+    "lastModified": "2025-10-27T16:37:54.561Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251016.1000"
+    "version": "1.20251027.1937"
   }
 }
