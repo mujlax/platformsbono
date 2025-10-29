@@ -78,6 +78,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1761742904619",
+            "name": "IeEdge",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -191,6 +201,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1761742975492",
+            "name": "ieEdge",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -232,19 +252,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251027.1937",
+    "version": "1.20251029.1603",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-07-24T10:27:21.271Z",
-    "updated": "2025-10-27T16:37:54.561Z",
+    "updated": "2025-10-29T13:03:39.233Z",
     "license": "MIT",
-    "savedAt": "2025-10-27T16:37:36.559Z",
-    "lastModified": "2025-10-27T16:37:54.561Z"
+    "savedAt": "2025-10-29T13:03:31.104Z",
+    "lastModified": "2025-10-29T13:03:39.233Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251027.1937"
+    "version": "1.20251029.1603"
   }
 }
