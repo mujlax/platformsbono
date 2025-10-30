@@ -1,0 +1,152 @@
+{
+  "id": "platform_1761836113295",
+  "name": "Rutube_Masthead",
+  "icon": "🚑",
+  "color": "#df208f",
+  "sizeGroups": [
+    {
+      "id": "group_1761836148859",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1761836506254",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 2900,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div id=\"swiffycontainer\" onclick=\"parent.postMessage('banner.redirect', '*');\" style=\"display:block;text-decoration:none;\"></div>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1761836175350",
+            "name": "meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "id": "group_1761836549106",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1761836506254",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 2900,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div id=\"swiffycontainer\" onclick=\"parent.postMessage('banner.redirect', '*');\" style=\"display:block;text-decoration:none;\"></div>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1761836549106_c7rfey9dh",
+            "name": "meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20251030.1808",
+    "author": "den4ik",
+    "description": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fn3OhzQ4z8mzrtfml2k%2Bmh465wOF7MHfMqrRSpXDWdvZ7qmXGhY8%2FIjIRMMRN%2Flbhq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2Ftt_banners_021025.pdf&name=tt_banners_021025.pdf",
+    "tags": [],
+    "created": "2025-10-30T14:55:13.295Z",
+    "updated": "2025-10-30T15:08:15.925Z",
+    "license": "MIT",
+    "savedAt": "2025-10-30T15:08:08.489Z",
+    "lastModified": "2025-10-30T15:08:15.925Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20251030.1808"
+  }
+}
