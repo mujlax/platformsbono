@@ -18,6 +18,14 @@
           "maxSizeKB": 2900,
           "enabled": true,
           "type": "archive"
+        },
+        {
+          "id": "rule_1761837133410",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
         }
       ],
       "firmwareSettings": {
@@ -82,6 +90,14 @@
           "maxSizeKB": 2900,
           "enabled": true,
           "type": "archive"
+        },
+        {
+          "id": "rule_1761837148217",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
         }
       ],
       "firmwareSettings": {
@@ -134,19 +150,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251030.1808",
+    "version": "1.20251030.1812",
     "author": "den4ik",
     "description": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fn3OhzQ4z8mzrtfml2k%2Bmh465wOF7MHfMqrRSpXDWdvZ7qmXGhY8%2FIjIRMMRN%2Flbhq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2Ftt_banners_021025.pdf&name=tt_banners_021025.pdf",
     "tags": [],
     "created": "2025-10-30T14:55:13.295Z",
-    "updated": "2025-10-30T15:08:15.925Z",
+    "updated": "2025-10-30T15:12:39.273Z",
     "license": "MIT",
-    "savedAt": "2025-10-30T15:08:08.489Z",
-    "lastModified": "2025-10-30T15:08:15.925Z"
+    "savedAt": "2025-10-30T15:12:33.187Z",
+    "lastModified": "2025-10-30T15:12:39.273Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251030.1808"
+    "version": "1.20251030.1812"
   }
 }
