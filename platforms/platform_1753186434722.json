@@ -140,6 +140,26 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1761985954208",
+            "name": "remove onload init",
+            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
+            "markerId": "just_script_9625",
+            "scriptToInsert": "<body style=\"margin:0px;\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1761986084871",
+            "name": "add event onload",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script>\nwindow.addEventListener('load', init);\n</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -351,19 +371,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251010.1547",
+    "version": "1.20251101.1140",
     "author": "den4ik",
     "description": "инит",
     "tags": [],
     "created": "2025-07-22T12:13:54.722Z",
-    "updated": "2025-10-10T12:47:59.955Z",
+    "updated": "2025-11-01T08:40:36.186Z",
     "license": "MIT",
-    "savedAt": "2025-10-10T12:47:44.546Z",
-    "lastModified": "2025-10-10T12:47:59.955Z"
+    "savedAt": "2025-11-01T08:40:22.504Z",
+    "lastModified": "2025-11-01T08:40:36.186Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251010.1547"
+    "version": "1.20251101.1140"
   }
 }
