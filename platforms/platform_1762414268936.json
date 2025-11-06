@@ -1,0 +1,83 @@
+{
+  "id": "platform_1762414268936",
+  "name": "VK ads ",
+  "icon": "🌎",
+  "color": "#007bff",
+  "sizeGroups": [
+    {
+      "id": "group_1762414330395",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%link1%\" target=\"_blank\">link1</a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1762414385601",
+            "name": "Новый скрипт",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20251106.1035",
+    "author": "Донил чочи",
+    "description": "",
+    "tags": [],
+    "created": "2025-11-06T07:31:08.936Z",
+    "updated": "2025-11-06T07:35:05.548Z",
+    "license": "MIT",
+    "savedAt": "2025-11-06T07:34:46.532Z",
+    "lastModified": "2025-11-06T07:35:05.548Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20251106.1034"
+  }
+}
