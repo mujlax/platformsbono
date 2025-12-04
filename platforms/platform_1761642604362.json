@@ -1,0 +1,192 @@
+{
+  "id": "platform_1761642604362",
+  "name": "Только мета",
+  "icon": "💟",
+  "color": "#980ebe",
+  "sizeGroups": [
+    {
+      "id": "group_1761642625187",
+      "name": "Статика",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1761642669623",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 50,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1761642675388",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1761642683571",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1761642823165",
+            "name": "Meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1761642700068",
+      "name": "Адаптив",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1761642669623",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 50,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1761642675388",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1761642683571",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1761642848344",
+            "name": "Meta adaptive",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20251204.1841",
+    "author": "den4ik",
+    "description": "Шаблон без прошивки, только вставка меты и проверка на тесты",
+    "tags": [],
+    "created": "2025-10-28T09:10:04.362Z",
+    "updated": "2025-12-04T15:41:43.075Z",
+    "license": "MIT",
+    "savedAt": "2025-12-04T15:41:38.319Z",
+    "lastModified": "2025-12-04T15:41:43.075Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20251204.1841"
+  }
+}
