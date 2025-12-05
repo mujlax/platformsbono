@@ -6,9 +6,9 @@
   "sizeGroups": [
     {
       "id": "group_1759312862505",
-      "name": "Adaptive",
+      "name": "Static",
       "sizes": [
-        "adaptive-200"
+        "240x400"
       ],
       "validationRules": [
         {
@@ -32,7 +32,7 @@
             "name": "Meta",
             "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
             "markerId": "adobe_animate_meta",
-            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
@@ -91,22 +91,110 @@
           "shouldBorder": true
         }
       }
+    },
+    {
+      "id": "group_1764945956878",
+      "name": "Adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1759313114448",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 100,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<div onclick=\"buzzoolaBanner.onclick({ playerHandles: true })\" style=\"cursor: pointer;\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1764945956879_y6gnz70ef",
+            "name": "Meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1764945956879_rcsva6wug",
+            "name": "buzzolaLib",
+            "marker": "<!-- write your code here -->",
+            "markerId": "just_script_125",
+            "scriptToInsert": "<script type=\"text/javascript\" src=\"https://tube.buzzoola.com/js/lib/banner.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1764945956879_utdsstds4",
+            "name": "buzzzolaOnload",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script type=\"text/javascript\">buzzoolaBanner.onload();</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
     }
   ],
   "metadata": {
-    "version": "1.20251001.1327",
+    "version": "1.20251205.1747",
     "author": "den4ik",
     "description": "хер его знает",
     "tags": [],
     "created": "2025-10-01T10:00:38.614Z",
-    "updated": "2025-10-01T10:27:27.974Z",
+    "updated": "2025-12-05T14:47:15.478Z",
     "license": "MIT",
-    "savedAt": "2025-10-01T10:27:23.252Z",
-    "lastModified": "2025-10-01T10:27:27.974Z"
+    "savedAt": "2025-12-05T14:47:05.535Z",
+    "lastModified": "2025-12-05T14:47:15.478Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251001.1327"
+    "version": "1.20251205.1747"
   }
 }
