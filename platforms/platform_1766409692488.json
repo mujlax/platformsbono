@@ -1,0 +1,124 @@
+{
+  "id": "platform_1766409692488",
+  "name": "EnterDigital",
+  "icon": "📀",
+  "color": "#f4c767",
+  "sizeGroups": [
+    {
+      "id": "group_1766409717660",
+      "name": "Static",
+      "sizes": [
+        "240x400"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1766409742100",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1766409760354",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1766409765623",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 64,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "",
+          "wrapperDiv": "",
+          "enabled": false
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1766409825869",
+            "name": "bibli",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<script src=\"https://cs.opendsp.ru/zipcr.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1766409859427",
+            "name": "meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1766409985811",
+            "name": "click script",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script type=\"text/javascript\">\n  var elem = document.getElementsByTagName(\"canvas\")[0];\n  elem.style.cursor = \"pointer\";\n  elem.addEventListener(\"click\", function(){\n    BN.click();\n  }, false);\n</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20251222.1634",
+    "author": "den4ik",
+    "description": "",
+    "tags": [],
+    "created": "2025-12-22T13:21:32.488Z",
+    "updated": "2025-12-22T13:34:03.232Z",
+    "license": "MIT",
+    "savedAt": "2025-12-22T13:33:56.174Z",
+    "lastModified": "2025-12-22T13:34:03.232Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20251222.1633"
+  }
+}
