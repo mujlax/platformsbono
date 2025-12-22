@@ -73,7 +73,7 @@
           "localFileName": "createjs.min.js"
         },
         "loopLimiterSettings": {
-          "enabled": true,
+          "enabled": false,
           "required": true
         },
         "releaseSettings": {
@@ -157,7 +157,7 @@
           "localFileName": "createjs.min.js"
         },
         "loopLimiterSettings": {
-          "enabled": true,
+          "enabled": false,
           "required": true
         },
         "releaseSettings": {
@@ -174,19 +174,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250724.1747",
+    "version": "1.20251222.1610",
     "author": "den4ik",
     "description": "инит",
     "tags": [],
     "created": "2025-07-24T14:39:36.520Z",
-    "updated": "2025-07-24T14:47:48.938Z",
+    "updated": "2025-12-22T13:10:56.093Z",
     "license": "MIT",
-    "savedAt": "2025-07-24T14:47:46.247Z",
-    "lastModified": "2025-07-24T14:47:48.938Z"
+    "savedAt": "2025-12-22T13:10:48.140Z",
+    "lastModified": "2025-12-22T13:10:56.093Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250724.1747"
+    "version": "1.20251222.1610"
   }
 }
