@@ -69,7 +69,16 @@
       "sizes": [
         "adaptive-200"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1766412696111",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -124,19 +133,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1408",
+    "version": "1.20251222.1711",
     "author": "den4ik",
     "description": "",
     "tags": [],
     "created": "2025-08-06T11:06:41.248Z",
-    "updated": "2025-08-06T11:08:21.901Z",
+    "updated": "2025-12-22T14:11:57.777Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T11:08:18.953Z",
-    "lastModified": "2025-08-06T11:08:21.901Z"
+    "savedAt": "2025-12-22T14:11:51.837Z",
+    "lastModified": "2025-12-22T14:11:57.777Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1408"
+    "version": "1.20251222.1711"
   }
 }
