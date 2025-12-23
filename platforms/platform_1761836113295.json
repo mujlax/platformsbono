@@ -69,7 +69,7 @@
           "enabled": true
         },
         "scriptDownload": {
-          "enabled": true,
+          "enabled": false,
           "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
           "targetUrlMarkerId": "createjs_url",
           "localFileName": "createjs.min.js"
@@ -151,7 +151,7 @@
           "enabled": true
         },
         "scriptDownload": {
-          "enabled": true,
+          "enabled": false,
           "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
           "targetUrlMarkerId": "createjs_url",
           "localFileName": "createjs.min.js"
@@ -170,19 +170,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251223.1507",
+    "version": "1.20251223.1509",
     "author": "den4ik",
     "description": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fn3OhzQ4z8mzrtfml2k%2Bmh465wOF7MHfMqrRSpXDWdvZ7qmXGhY8%2FIjIRMMRN%2Flbhq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2Ftt_banners_021025.pdf&name=tt_banners_021025.pdf",
     "tags": [],
     "created": "2025-10-30T14:55:13.295Z",
-    "updated": "2025-12-23T12:07:26.470Z",
+    "updated": "2025-12-23T12:09:14.545Z",
     "license": "MIT",
-    "savedAt": "2025-12-23T12:07:18.486Z",
-    "lastModified": "2025-12-23T12:07:26.470Z"
+    "savedAt": "2025-12-23T12:09:05.187Z",
+    "lastModified": "2025-12-23T12:09:14.545Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251223.1507"
+    "version": "1.20251223.1509"
   }
 }
