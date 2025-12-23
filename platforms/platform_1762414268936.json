@@ -6,11 +6,20 @@
   "sizeGroups": [
     {
       "id": "group_1762414330395",
-      "name": "Новая группа размеров",
+      "name": "static",
       "sizes": [
         "240x400"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1766490549658",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -62,22 +71,90 @@
           "shouldBorder": true
         }
       }
+    },
+    {
+      "id": "group_1766490494647",
+      "name": "adaprive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1766490537474",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%link1%\" target=\"_blank\">link1</a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1766490494647_0avsb6g5t",
+            "name": "Новый скрипт",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
     }
   ],
   "metadata": {
-    "version": "1.20251106.1035",
+    "version": "1.20251223.1449",
     "author": "Донил чочи",
     "description": "",
     "tags": [],
     "created": "2025-11-06T07:31:08.936Z",
-    "updated": "2025-11-06T07:35:05.548Z",
+    "updated": "2025-12-23T11:49:35.840Z",
     "license": "MIT",
-    "savedAt": "2025-11-06T07:34:46.532Z",
-    "lastModified": "2025-11-06T07:35:05.548Z"
+    "savedAt": "2025-12-23T11:49:30.675Z",
+    "lastModified": "2025-12-23T11:49:35.840Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251106.1034"
+    "version": "1.20251223.1449"
   }
 }
