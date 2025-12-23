@@ -44,6 +44,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1766491626804",
+            "name": "creatjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
           }
         ],
         "standardTests": {
@@ -87,7 +97,7 @@
           "id": "rule_1761836506254",
           "name": "Проверка ZIP архив",
           "pattern": "*.zip",
-          "maxSizeKB": 2900,
+          "maxSizeKB": 150,
           "enabled": true,
           "type": "archive"
         },
@@ -114,6 +124,16 @@
             "markerId": "charset_script",
             "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
             "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1766491540948",
+            "name": "creatjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
             "enabled": true,
             "insertPosition": "after"
           }
@@ -150,19 +170,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251030.1812",
+    "version": "1.20251223.1507",
     "author": "den4ik",
     "description": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fn3OhzQ4z8mzrtfml2k%2Bmh465wOF7MHfMqrRSpXDWdvZ7qmXGhY8%2FIjIRMMRN%2Flbhq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2Ftt_banners_021025.pdf&name=tt_banners_021025.pdf",
     "tags": [],
     "created": "2025-10-30T14:55:13.295Z",
-    "updated": "2025-10-30T15:12:39.273Z",
+    "updated": "2025-12-23T12:07:26.470Z",
     "license": "MIT",
-    "savedAt": "2025-10-30T15:12:33.187Z",
-    "lastModified": "2025-10-30T15:12:39.273Z"
+    "savedAt": "2025-12-23T12:07:18.486Z",
+    "lastModified": "2025-12-23T12:07:26.470Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251030.1812"
+    "version": "1.20251223.1507"
   }
 }
