@@ -1,6 +1,6 @@
 {
   "id": "platform_1761836113295",
-  "name": "Rutube_Masthead",
+  "name": "Rutube_Masthead (устаревший)",
   "icon": "🚑",
   "color": "#df208f",
   "sizeGroups": [
@@ -170,19 +170,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251223.1509",
+    "version": "1.20251225.1040",
     "author": "den4ik",
     "description": "https://docs.yandex.ru/docs/view?url=ya-disk-public%3A%2F%2Fn3OhzQ4z8mzrtfml2k%2Bmh465wOF7MHfMqrRSpXDWdvZ7qmXGhY8%2FIjIRMMRN%2Flbhq%2FJ6bpmRyOJonT3VoXnDag%3D%3D%3A%2Ftt_banners_021025.pdf&name=tt_banners_021025.pdf",
     "tags": [],
     "created": "2025-10-30T14:55:13.295Z",
-    "updated": "2025-12-23T12:09:14.545Z",
+    "updated": "2025-12-25T07:40:41.924Z",
     "license": "MIT",
-    "savedAt": "2025-12-23T12:09:05.187Z",
-    "lastModified": "2025-12-23T12:09:14.545Z"
+    "savedAt": "2025-12-25T07:40:37.065Z",
+    "lastModified": "2025-12-25T07:40:41.924Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251223.1509"
+    "version": "1.20251225.1040"
   }
 }
