@@ -1,0 +1,194 @@
+{
+  "id": "platform_1766648445766",
+  "name": "Rutube_Masthead",
+  "icon": "🚒",
+  "color": "#da6292",
+  "sizeGroups": [
+    {
+      "id": "group_1766648462106",
+      "name": "adaptive",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1766648491920",
+            "name": "meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width=100%,height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1766648503333",
+            "name": "script creatjs swap",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1766648621727",
+            "name": "nonce",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1766648647503",
+            "name": "nonce2",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    },
+    {
+      "id": "group_1766648750658",
+      "name": "static",
+      "sizes": [
+        "adaptive-200"
+      ],
+      "validationRules": [],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"%banner.reference_mrc_user1%\" target=\"%banner.target%\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1766648750658_pr2agr7ym",
+            "name": "meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1766648750658_h7ufbrvnt",
+            "name": "script creatjs swap",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1766648750658_a16y2nvtn",
+            "name": "nonce",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1766648750658_zxtactjjc",
+            "name": "nonce2",
+            "marker": "<script>",
+            "markerId": "just_script_110",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20251225.1046",
+    "author": "den4ik",
+    "description": "",
+    "tags": [],
+    "created": "2025-12-25T07:40:45.766Z",
+    "updated": "2025-12-25T07:46:53.732Z",
+    "license": "MIT",
+    "savedAt": "2025-12-25T07:46:50.876Z",
+    "lastModified": "2025-12-25T07:46:53.732Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20251225.1046"
+  }
+}
