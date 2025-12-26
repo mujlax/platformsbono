@@ -10,7 +10,24 @@
       "sizes": [
         "adaptive-200"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1766749968364",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1766749976536",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -95,7 +112,24 @@
       "sizes": [
         "adaptive-200"
       ],
-      "validationRules": [],
+      "validationRules": [
+        {
+          "id": "rule_1766749983870",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        },
+        {
+          "id": "rule_1766749989419",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 300,
+          "enabled": true,
+          "type": "file"
+        }
+      ],
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
@@ -176,19 +210,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251225.1046",
+    "version": "1.20251226.1453",
     "author": "den4ik",
     "description": "",
     "tags": [],
     "created": "2025-12-25T07:40:45.766Z",
-    "updated": "2025-12-25T07:46:53.732Z",
+    "updated": "2025-12-26T11:53:28.958Z",
     "license": "MIT",
-    "savedAt": "2025-12-25T07:46:50.876Z",
-    "lastModified": "2025-12-25T07:46:53.732Z"
+    "savedAt": "2025-12-26T11:53:16.529Z",
+    "lastModified": "2025-12-26T11:53:28.958Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251225.1046"
+    "version": "1.20251226.1453"
   }
 }
