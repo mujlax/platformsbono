@@ -287,7 +287,9 @@
       "name": "250 и 180 без рамки",
       "sizes": [
         "adaptive-180",
-        "adaptive-250"
+        "adaptive-250",
+        "adaptive-120",
+        "adaptive-150"
       ],
       "validationRules": [
         {
@@ -371,19 +373,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251101.1140",
+    "version": "1.20260201.1939",
     "author": "den4ik",
     "description": "инит",
     "tags": [],
     "created": "2025-07-22T12:13:54.722Z",
-    "updated": "2025-11-01T08:40:36.186Z",
+    "updated": "2026-02-01T16:39:22.542Z",
     "license": "MIT",
-    "savedAt": "2025-11-01T08:40:22.504Z",
-    "lastModified": "2025-11-01T08:40:36.186Z"
+    "savedAt": "2026-02-01T16:39:15.821Z",
+    "lastModified": "2026-02-01T16:39:22.542Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251101.1140"
+    "version": "1.20260201.1939"
   }
 }
