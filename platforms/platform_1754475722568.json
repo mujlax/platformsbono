@@ -1,6 +1,6 @@
 {
   "id": "platform_1754475722568",
-  "name": "MyWayMag",
+  "name": "MyWayMag/AdRiver",
   "icon": "🎭",
   "color": "#f4eb85",
   "sizeGroups": [
@@ -194,19 +194,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1325",
+    "version": "1.20260204.1734",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:22:02.568Z",
-    "updated": "2025-08-06T10:25:30.613Z",
+    "updated": "2026-02-04T14:34:16.311Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T10:25:26.496Z",
-    "lastModified": "2025-08-06T10:25:30.613Z"
+    "savedAt": "2026-02-04T14:34:10.696Z",
+    "lastModified": "2026-02-04T14:34:16.311Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1325"
+    "version": "1.20260204.1734"
   }
 }
