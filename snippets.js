@@ -265,7 +265,7 @@ window.BannerResponsive = window.BannerResponsive || (function () {
             }
 
 	api.ensure = function (root) {
-                // root = `this` из Adobe Animate. В некоторых кадрах `this` может быть НЕ корневым клипом,
+                
                 // поэтому мы пытаемся найти корректный root (например window.exportRoot или через parent).
 		var hooks = api._hooks || {};
 		var levels = getLevelsFromHooks(hooks);
