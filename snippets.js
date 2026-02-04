@@ -134,10 +134,13 @@ page_body.style.overflow = 'hidden';
 function clamp(num, min, max) {
 	return num <= min ? min : num >= max ? max : num;
         }
-    }
-	{
+    
+	`
+    },
+
+    {
     id: 7,
-    title: 'Новая растяжка Frame',
+    title: 'Новая растяжка Frame 1',
     code: ` // Общая база для всех кадров — объявляется один раз.
 // Идея для новичков: на кадрах описываем логику один раз через BannerResponsive.setHooks({ s_600: { common, frame } }).
 window.BannerResponsive = window.BannerResponsive || (function () {
@@ -466,6 +469,7 @@ function clamp(num, min, max) {
 
 `
     },
+
     {
     id: 8,
     title: 'Новая растяжка Frame Next',
