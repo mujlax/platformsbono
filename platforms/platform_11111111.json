@@ -23,7 +23,7 @@
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
-          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "wrapperDiv": "<a href=\"[clickurl_1]\" target=\"_blank\">",
           "enabled": true
         },
         "scriptInjections": [
@@ -42,7 +42,7 @@
             "name": "Новый скрипт",
             "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
             "markerId": "createjs_url",
-            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "scriptToInsert": "<script src=\"https://cdn.dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -101,7 +101,7 @@
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
-          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "wrapperDiv": "<a href=\"[clickurl_1]\" target=\"_blank\">",
           "enabled": true
         },
         "scriptInjections": [
@@ -120,7 +120,7 @@
             "name": "Новый скрипт",
             "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
             "markerId": "createjs_url",
-            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "scriptToInsert": "<script src=\"https://cdn.dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -179,7 +179,7 @@
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
-          "wrapperDiv": "<a href=\"%clickurl_1%\" target=\"_blank\">",
+          "wrapperDiv": "<a href=\"[clickurl_1]\" target=\"_blank\">",
           "enabled": true
         },
         "scriptInjections": [
@@ -198,7 +198,7 @@
             "name": "Новый скрипт",
             "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
             "markerId": "createjs_url",
-            "scriptToInsert": "<script src=\"https://dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
+            "scriptToInsert": "<script src=\"https://cdn.dsp-rambler.ru/js/createjs/1.0.0/createjs.min.js\"></script>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -240,19 +240,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251009.1257",
+    "version": "1.20260206.1821",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:31:32.790Z",
-    "updated": "2025-10-09T09:57:00.460Z",
+    "updated": "2026-02-06T15:21:03.910Z",
     "license": "MIT",
-    "savedAt": "2025-10-09T09:56:39.432Z",
-    "lastModified": "2025-10-09T09:57:00.460Z"
+    "savedAt": "2026-02-06T15:21:00.420Z",
+    "lastModified": "2026-02-06T15:21:03.910Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251009.1256"
+    "version": "1.20260206.1821"
   }
 }
