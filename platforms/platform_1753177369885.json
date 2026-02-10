@@ -31,7 +31,7 @@
           "id": "rule_1753177667991",
           "name": "Проверка ZIP архив",
           "pattern": "*.zip",
-          "maxSizeKB": 500,
+          "maxSizeKB": 300,
           "enabled": true,
           "type": "archive"
         }
@@ -148,7 +148,7 @@
           "id": "rule_1753177667991",
           "name": "Проверка ZIP архив",
           "pattern": "*.zip",
-          "maxSizeKB": 500,
+          "maxSizeKB": 300,
           "enabled": true,
           "type": "archive"
         }
@@ -240,19 +240,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250722.1513",
+    "version": "1.20260210.1741",
     "author": "den4ik",
     "description": "Адфокс для статика",
     "tags": [],
     "created": "2025-07-22T09:42:49.885Z",
-    "updated": "2025-07-22T12:13:46.926Z",
+    "updated": "2026-02-10T14:41:39.867Z",
     "license": "MIT",
-    "savedAt": "2025-07-22T12:13:42.953Z",
-    "lastModified": "2025-07-22T12:13:46.926Z"
+    "savedAt": "2026-02-10T14:41:31.320Z",
+    "lastModified": "2026-02-10T14:41:39.867Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250722.1513"
+    "version": "1.20260210.1741"
   }
 }
