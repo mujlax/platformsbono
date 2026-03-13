@@ -39,7 +39,7 @@
       "firmwareSettings": {
         "wrapperSettings": {
           "targetDivId": "animation_container",
-          "wrapperDiv": "<a href=\"%link1%\" target=\"_blank\"></a>",
+          "wrapperDiv": "<a href=\"%link1%\" id=\"link\" target=\"_blank\">",
           "enabled": true
         },
         "scriptInjections": [
@@ -86,19 +86,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20251229.1336",
+    "version": "1.20260313.1707",
     "author": "den4ik",
     "description": "test fullscreen",
     "tags": [],
     "created": "2025-12-29T10:28:26.154Z",
-    "updated": "2025-12-29T10:36:21.822Z",
+    "updated": "2026-03-13T14:07:04.279Z",
     "license": "MIT",
-    "savedAt": "2025-12-29T10:36:18.523Z",
-    "lastModified": "2025-12-29T10:36:21.822Z"
+    "savedAt": "2026-03-13T14:06:59.942Z",
+    "lastModified": "2026-03-13T14:07:04.279Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251229.1336"
+    "version": "1.20260313.1706"
   }
 }
