@@ -62,7 +62,7 @@
             "name": "mobile meta",
             "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
             "markerId": "adobe_animate_meta",
-            "scriptToInsert": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"/> \n",
+            "scriptToInsert": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1\">",
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
@@ -192,19 +192,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20260428.1442",
+    "version": "1.20260428.1611",
     "author": "den4ik",
     "description": "хер его знает",
     "tags": [],
     "created": "2025-10-01T10:00:38.614Z",
-    "updated": "2026-04-28T11:42:35.344Z",
+    "updated": "2026-04-28T13:11:52.001Z",
     "license": "MIT",
-    "savedAt": "2026-04-28T11:42:28.999Z",
-    "lastModified": "2026-04-28T11:42:35.344Z"
+    "savedAt": "2026-04-28T13:11:44.586Z",
+    "lastModified": "2026-04-28T13:11:52.001Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20260428.1442"
+    "version": "1.20260428.1611"
   }
 }
