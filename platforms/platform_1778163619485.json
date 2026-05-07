@@ -1,0 +1,237 @@
+{
+  "id": "platform_1778163619485",
+  "name": "Allience",
+  "icon": "📉",
+  "color": "#ff8624",
+  "sizeGroups": [
+    {
+      "id": "group_1778163643136",
+      "name": "Static web",
+      "sizes": [
+        "300x250",
+        "240x400",
+        "728x90",
+        "320x50",
+        "336x280",
+        "320x100",
+        "320x480",
+        "300x300"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1778163678439",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1778163705242",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 149,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:mraid.open('','_blank')\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1778163778985",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1778163917413",
+            "name": "mraid",
+            "marker": "<title>index</title>",
+            "markerId": "just_script_965",
+            "scriptToInsert": "<script src=\"mraid.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1778164257010",
+            "name": "swap libjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": true,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    },
+    {
+      "id": "group_1778164341143",
+      "name": "Static mob",
+      "sizes": [
+        "320х480",
+        "240х400",
+        "300х250",
+        "320х50",
+        "320х100"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1778163678439",
+          "name": "Проверка index.js",
+          "pattern": "index.js",
+          "maxSizeKB": 299,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1778163705242",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 149,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"javascript:mraid.open('','_blank')\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1778164341143_nr5qju344",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1778164341143_07tgpsmys",
+            "name": "mraid",
+            "marker": "<title>index</title>",
+            "markerId": "just_script_965",
+            "scriptToInsert": "<script src=\"mraid.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1778164341143_34498hndv",
+            "name": "swap libjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1778164373205",
+            "name": "mob meta",
+            "marker": "<meta charset=\"UTF-8\">",
+            "markerId": "charset_script",
+            "scriptToInsert": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": true,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20260507.1733",
+    "author": "den4ik",
+    "description": "",
+    "tags": [],
+    "created": "2026-05-07T14:20:19.485Z",
+    "updated": "2026-05-07T14:33:25.339Z",
+    "license": "MIT",
+    "savedAt": "2026-05-07T14:33:21.176Z",
+    "lastModified": "2026-05-07T14:33:25.339Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20260507.1733"
+  }
+}
