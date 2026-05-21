@@ -68,7 +68,7 @@
         },
         "borderSettings": {
           "enabled": true,
-          "shouldBorder": true
+          "shouldBorder": false
         }
       }
     },
@@ -136,25 +136,25 @@
         },
         "borderSettings": {
           "enabled": true,
-          "shouldBorder": true
+          "shouldBorder": false
         }
       }
     }
   ],
   "metadata": {
-    "version": "1.20251223.1449",
+    "version": "1.20260521.1836",
     "author": "Донил чочи",
     "description": "",
     "tags": [],
     "created": "2025-11-06T07:31:08.936Z",
-    "updated": "2025-12-23T11:49:35.840Z",
+    "updated": "2026-05-21T15:36:23.910Z",
     "license": "MIT",
-    "savedAt": "2025-12-23T11:49:30.675Z",
-    "lastModified": "2025-12-23T11:49:35.840Z"
+    "savedAt": "2026-05-21T15:36:16.348Z",
+    "lastModified": "2026-05-21T15:36:23.910Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20251223.1449"
+    "version": "1.20260521.1836"
   }
 }
