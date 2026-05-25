@@ -240,19 +240,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20260206.1821",
+    "version": "1.20260525.1724",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:31:32.790Z",
-    "updated": "2026-02-06T15:21:03.910Z",
+    "updated": "2026-05-25T14:24:31.825Z",
     "license": "MIT",
-    "savedAt": "2026-02-06T15:21:00.420Z",
-    "lastModified": "2026-02-06T15:21:03.910Z"
+    "savedAt": "2026-05-25T14:24:28.944Z",
+    "lastModified": "2026-05-25T14:24:31.825Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20260206.1821"
+    "version": "1.20260525.1724"
   }
 }
