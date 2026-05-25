@@ -66,9 +66,9 @@
           {
             "id": "script_1753177548218",
             "name": "Script nonce",
-            "marker": "<script>",
-            "markerId": "just_script_110",
-            "scriptToInsert": "<script nonce=\"%request.eid1%\">",
+            "marker": "<script src=\"index.js\"></script>",
+            "markerId": "just_script_230",
+            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -240,19 +240,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20260210.1741",
+    "version": "1.20260525.1233",
     "author": "den4ik",
     "description": "Адфокс для статика",
     "tags": [],
     "created": "2025-07-22T09:42:49.885Z",
-    "updated": "2026-02-10T14:41:39.867Z",
+    "updated": "2026-05-25T09:33:08.393Z",
     "license": "MIT",
-    "savedAt": "2026-02-10T14:41:31.320Z",
-    "lastModified": "2026-02-10T14:41:39.867Z"
+    "savedAt": "2026-05-25T09:33:05.030Z",
+    "lastModified": "2026-05-25T09:33:08.393Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20260210.1741"
+    "version": "1.20260525.1233"
   }
 }
