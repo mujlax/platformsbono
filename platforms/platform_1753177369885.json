@@ -62,16 +62,6 @@
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
-          },
-          {
-            "id": "script_1753177595347",
-            "name": "Новый скрипт",
-            "marker": "<script src=\"index.js\"></script>",
-            "markerId": "just_script_230",
-            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
-            "deleteMarker": true,
-            "enabled": true,
-            "insertPosition": "before"
           }
         ],
         "standardTests": {
@@ -169,16 +159,6 @@
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
-          },
-          {
-            "id": "script_1753186392398_wpn86xse9",
-            "name": "Новый скрипт",
-            "marker": "<script src=\"index.js\"></script>",
-            "markerId": "just_script_230",
-            "scriptToInsert": "<script nonce=\"%request.eid1%\" src=\"index.js\"></script>",
-            "deleteMarker": true,
-            "enabled": true,
-            "insertPosition": "before"
           }
         ],
         "standardTests": {
@@ -220,19 +200,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20260525.1310",
+    "version": "1.20260525.1321",
     "author": "den4ik",
     "description": "Адфокс для статика",
     "tags": [],
     "created": "2025-07-22T09:42:49.885Z",
-    "updated": "2026-05-25T10:10:17.431Z",
+    "updated": "2026-05-25T10:21:24.692Z",
     "license": "MIT",
-    "savedAt": "2026-05-25T10:10:15.158Z",
-    "lastModified": "2026-05-25T10:10:17.431Z"
+    "savedAt": "2026-05-25T10:21:20.989Z",
+    "lastModified": "2026-05-25T10:21:24.692Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20260525.1310"
+    "version": "1.20260525.1321"
   }
 }
