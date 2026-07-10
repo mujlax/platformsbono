@@ -36,6 +36,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1783689680272",
+            "name": "creatjsswap",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "https://ndc.mts.ru/dsp/js/libs/createjs/createjs-2015.11.26.min.js",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -104,6 +114,16 @@
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
+          },
+          {
+            "id": "script_1783689727152",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "https://ndc.mts.ru/dsp/js/libs/createjs/createjs-2015.11.26.min.js",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "after"
           }
         ],
         "standardTests": {
@@ -142,19 +162,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1356",
+    "version": "1.20260710.1622",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:52:54.946Z",
-    "updated": "2025-08-06T10:56:48.523Z",
+    "updated": "2026-07-10T13:22:24.539Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T10:56:42.519Z",
-    "lastModified": "2025-08-06T10:56:48.523Z"
+    "savedAt": "2026-07-10T13:22:18.251Z",
+    "lastModified": "2026-07-10T13:22:24.539Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1356"
+    "version": "1.20260710.1622"
   }
 }
