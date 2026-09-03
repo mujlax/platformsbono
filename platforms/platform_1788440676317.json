@@ -60,7 +60,7 @@
             "name": "Новый скрипт",
             "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
             "markerId": "createjs_url",
-            "scriptToInsert": "https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js",
+            "scriptToInsert": "<script src=\"https://s0.2mdn.net/ads/studio/cached_libs/createjs_2019.11.15_min.js\"></script>",
             "deleteMarker": true,
             "enabled": true,
             "insertPosition": "before"
@@ -102,19 +102,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20260903.1612",
+    "version": "1.20260903.1628",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2026-09-03T13:04:36.317Z",
-    "updated": "2026-09-03T13:12:39.184Z",
+    "updated": "2026-09-03T13:28:05.634Z",
     "license": "MIT",
-    "savedAt": "2026-09-03T13:12:35.114Z",
-    "lastModified": "2026-09-03T13:12:39.184Z"
+    "savedAt": "2026-09-03T13:28:02.242Z",
+    "lastModified": "2026-09-03T13:28:05.634Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20260903.1612"
+    "version": "1.20260903.1628"
   }
 }
