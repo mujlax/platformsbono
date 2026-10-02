@@ -15,7 +15,7 @@
         "wrapperSettings": {
           "targetDivId": "animation_container",
           "wrapperDiv": "<a href=\"javascript:void(window.open(window.clickTag))\">",
-          "enabled": true
+          "enabled": false
         },
         "scriptInjections": [
           {
@@ -29,14 +29,14 @@
             "insertPosition": "after"
           },
           {
-            "id": "script_1754477421004",
-            "name": "clicktag",
-            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
-            "markerId": "just_script_9625",
-            "scriptToInsert": "<script>var clickTag = \"http://www.google.com\";</script>",
-            "deleteMarker": false,
+            "id": "script_1790939491873",
+            "name": "cretjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://ndc.mts.ru/dsp/js/libs/createjs/createjs.min.js\"></script>",
+            "deleteMarker": true,
             "enabled": true,
-            "insertPosition": "after"
+            "insertPosition": "before"
           }
         ],
         "standardTests": {
@@ -80,7 +80,7 @@
         "wrapperSettings": {
           "targetDivId": "animation_container",
           "wrapperDiv": "<a href=\"javascript:void(window.open(window.clickTag))\">",
-          "enabled": true
+          "enabled": false
         },
         "scriptInjections": [
           {
@@ -94,14 +94,14 @@
             "insertPosition": "after"
           },
           {
-            "id": "script_1754477489735_5ek79bhpi",
-            "name": "clicktag",
-            "marker": "<body onload=\"init();\" style=\"margin:0px;\">",
-            "markerId": "just_script_9625",
-            "scriptToInsert": "<script>var clickTag = \"http://www.google.com\";</script>",
-            "deleteMarker": false,
+            "id": "script_1790939522046",
+            "name": "Новый скрипт",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://ndc.mts.ru/dsp/js/libs/createjs/createjs.min.js\"></script>",
+            "deleteMarker": true,
             "enabled": true,
-            "insertPosition": "after"
+            "insertPosition": "before"
           }
         ],
         "standardTests": {
@@ -136,19 +136,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20250806.1352",
+    "version": "1.20261002.1414",
     "author": "den4ik",
     "description": "",
     "tags": [],
     "created": "2025-08-06T10:49:50.479Z",
-    "updated": "2025-08-06T10:52:06.112Z",
+    "updated": "2026-10-02T11:14:20.726Z",
     "license": "MIT",
-    "savedAt": "2025-08-06T10:52:03.564Z",
-    "lastModified": "2025-08-06T10:52:06.112Z"
+    "savedAt": "2026-10-02T11:14:17.499Z",
+    "lastModified": "2026-10-02T11:14:20.726Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20250806.1352"
+    "version": "1.20261002.1414"
   }
 }
