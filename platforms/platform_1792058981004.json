@@ -1,0 +1,106 @@
+{
+  "id": "platform_1792058981004",
+  "name": "Upravel",
+  "icon": "🎺",
+  "color": "#73114a",
+  "sizeGroups": [
+    {
+      "id": "group_1792059014808",
+      "name": "Новая группа размеров",
+      "sizes": [
+        "300x250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1792418245561",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 64,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1792418250001",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a href=\"${3RD_CLICK_TRACKING_URL}\" target=\"_blank\">",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1792418224957",
+            "name": "комменты",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<!--${HTML_IMPRESSION_TRACKING_URLS}-->\n<!--${3RD_CLICK_TRACKING_URL}-->",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "before"
+          },
+          {
+            "id": "script_1792422668643",
+            "name": "Новый скрипт",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": true,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20261019.1812",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2026-10-15T10:09:41.004Z",
+    "updated": "2026-10-19T15:12:23.425Z",
+    "license": "MIT",
+    "savedAt": "2026-10-19T15:12:17.647Z",
+    "lastModified": "2026-10-19T15:12:23.425Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20261019.1812"
+  }
+}
