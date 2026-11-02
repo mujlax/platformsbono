@@ -70,7 +70,7 @@
             "name": "meta",
             "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
             "markerId": "adobe_animate_meta",
-            "scriptToInsert": "<script>console.log(\"loaded\");</script>",
+            "scriptToInsert": "<meta name=\"ad.size\" content=\"width={{WIDTH}},height={{HEIGHT}}\">",
             "deleteMarker": false,
             "enabled": true,
             "insertPosition": "after"
@@ -115,19 +115,19 @@
     }
   ],
   "metadata": {
-    "version": "1.20261102.1202",
+    "version": "1.20261102.1620",
     "author": "",
     "description": "",
     "tags": [],
     "created": "2026-11-02T08:50:50.299Z",
-    "updated": "2026-11-02T09:02:23.526Z",
+    "updated": "2026-11-02T13:20:42.382Z",
     "license": "MIT",
-    "savedAt": "2026-11-02T09:02:20.013Z",
-    "lastModified": "2026-11-02T09:02:23.526Z"
+    "savedAt": "2026-11-02T13:20:34.395Z",
+    "lastModified": "2026-11-02T13:20:42.382Z"
   },
   "isCustom": true,
   "source": {
     "type": "local",
-    "version": "1.20261102.1202"
+    "version": "1.20261102.1620"
   }
 }
