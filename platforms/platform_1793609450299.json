@@ -1,0 +1,133 @@
+{
+  "id": "platform_1793609450299",
+  "name": "New_Mts",
+  "icon": "🎹",
+  "color": "#ff0040",
+  "sizeGroups": [
+    {
+      "id": "group_1793609466142",
+      "name": "static",
+      "sizes": [
+        "300x250"
+      ],
+      "validationRules": [
+        {
+          "id": "rule_1793610038578",
+          "name": "Проверка index.html",
+          "pattern": "index.html",
+          "maxSizeKB": 100,
+          "enabled": true,
+          "type": "file"
+        },
+        {
+          "id": "rule_1793610064626",
+          "name": "Проверка ZIP архив",
+          "pattern": "*.zip",
+          "maxSizeKB": 150,
+          "enabled": true,
+          "type": "archive"
+        }
+      ],
+      "firmwareSettings": {
+        "wrapperSettings": {
+          "targetDivId": "animation_container",
+          "wrapperDiv": "<a onclick=\"mtsBanner.onclick({ playerHandles: true })\"></a>",
+          "enabled": true
+        },
+        "scriptInjections": [
+          {
+            "id": "script_1793609702561",
+            "name": "buzz",
+            "marker": "<!-- write your code here -->",
+            "markerId": "just_script_125",
+            "scriptToInsert": "<script src=\"https://tube.buzzoola.com/js/lib/banner.js\"></script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1793609892393",
+            "name": "onloadmts",
+            "marker": "</body>",
+            "markerId": "html_body_end",
+            "scriptToInsert": "<script type=\"text/javascript\">mtsBanner.onload();</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1793610101226",
+            "name": "swarcrtjs",
+            "marker": "<script src=\"https://code.createjs.com/1.0.0/createjs.min.js\"></script>",
+            "markerId": "createjs_url",
+            "scriptToInsert": "<script src=\"https://ndc.mts.ru/dsp/js/libs/createjs/createjs.min.js\"></script>",
+            "deleteMarker": true,
+            "enabled": true,
+            "insertPosition": "after"
+          },
+          {
+            "id": "script_1793610121693",
+            "name": "meta",
+            "marker": "<meta name=\"authoring-tool\" content=\"Adobe_Animate_CC\">",
+            "markerId": "adobe_animate_meta",
+            "scriptToInsert": "<script>console.log(\"loaded\");</script>",
+            "deleteMarker": false,
+            "enabled": true,
+            "insertPosition": "after"
+          }
+        ],
+        "standardTests": {
+          "enabled": true
+        },
+        "jsOptimization": {
+          "enabled": true
+        },
+        "imageOptimization": {
+          "enabled": true
+        },
+        "cleanupSettings": {
+          "enabled": true
+        },
+        "scriptDownload": {
+          "enabled": false,
+          "targetUrl": "https://code.createjs.com/1.0.0/createjs.min.js",
+          "targetUrlMarkerId": "createjs_url",
+          "localFileName": "createjs.min.js"
+        },
+        "loopLimiterSettings": {
+          "enabled": false,
+          "required": true
+        },
+        "releaseSettings": {
+          "enabled": true
+        },
+        "archiveSettings": {
+          "enabled": true
+        },
+        "inlineJs": {
+          "enabled": false
+        },
+        "borderSettings": {
+          "enabled": true,
+          "shouldBorder": true
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "version": "1.20261102.1202",
+    "author": "",
+    "description": "",
+    "tags": [],
+    "created": "2026-11-02T08:50:50.299Z",
+    "updated": "2026-11-02T09:02:23.526Z",
+    "license": "MIT",
+    "savedAt": "2026-11-02T09:02:20.013Z",
+    "lastModified": "2026-11-02T09:02:23.526Z"
+  },
+  "isCustom": true,
+  "source": {
+    "type": "local",
+    "version": "1.20261102.1202"
+  }
+}
